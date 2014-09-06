@@ -30,10 +30,16 @@
 <script>
 $(document).ready(function() {
 	console.log("HTML Ready");
+	var height = $(window).height();
+	var top_height = height/2 - 50;
+	var bottom_height = height/2;
+	$('#header').css("min-height", top_height);
+	$('#main').css("min-height", bottom_height);
+
 	$(window).resize(function () {
-		var height = $(window).height();
-		var top_height = height/2 - 50;
-		var bottom_height = height/2;
+		height = $(window).height();
+		top_height = height/2 - 50;
+		bottom_height = height/2;
 		$('#header').css("min-height", top_height);
 		$('#main').css("min-height", bottom_height);
 	});
