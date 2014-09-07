@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./resources/css/style.css">
+	<link rel="stylesheet" href="./resources/css/responsive.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Abel|Raleway' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="header">
+		<div id="header-bg">
+			<div class="container">
+				<div id="name">
+					Bernardus Billy Tjiptoning
+				</div>
+				<div id="menu-container">
+					<a href="http://bernardusbilly.com" class="menu menu-active">Home</a></a>
+					<a href="http://bernardusbilly.com/resume.html" class="menu">Resume</a>
+					<a href="http://bernardusbilly.com/project.html" class="menu">Project</a>
+					<a href="http://bernardusbilly.com/contact.html" class="menu">Contact</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="container">
+			<div id="introduction">
+				<div id="introduction-left">
+					<div class="h3">About Me.</div>
+					Hi! I am an Undergraduate Student at <a href="http://berkeley.edu/index.html">University of California Berkeley.</a> Currently I am pursuing a degree of Computer Science from College of Letter & Science. I am interested in User Experience - Web Development. Other than my major-related stuffs, I am also interested in Music, Photography, and MOBA Games. <br><br> One of my favourite quotes is "Genius is 1% talent and 99% percent hard work." by Albert Einstein. I am not the typical genius-asian-from-Berkeley guy. I am just an ordinary guy that wants to learn and to work harder than anyone else to cover up my incompetence.
+				</div>
+				<div id="introduction-right">
+					<img src="./resources/img/bil.jpg" style="width: 180px; height: 180px; border-radius: 30px;">
+				</div>
+				<div id="about-this-site">
+					<div class="h3">About This Site.</div>
+					<a style="color: #d9534f">IMPORTANT!</a> This website is under construction. Any other page than homepage is not available yet.<br><br>This page is created solely in order to fulfil my newest hobby - creating website and making my resume easier to be obtained online. I built this page without any intention to copy any existing website; though, it may be similar to those which I have visited. Also, I want to mention <a href="https://github.com/">GitHub</a> for the amazing idea of repositories and <a href="http://getbootstrap.com">Bootstrap</a> as a gratitude for the incredible framework! 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="container">
+			&copy 2014 Bernardus Billy Tjiptoning
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./resources/js/jquery-1.11.0.js">
+</script>
+<script>
+$(document).ready(function() {
+	
+	console.log("HTML Ready");
+
+	$(window).scroll(function() {
+		var top = $(window).scrollTop();
+		$('#header').css("top", top);
+
+		if (top < 0) {
+			$('#header').css("top", "0");
+		} else if (top < 40) {
+			$('#header-bg').css("height", "100px");
+			$('#name').css("font-size", "30pt");
+			$('#name').css("padding", "20px 0");
+			$('#main').css("padding-top", "120px");
+			$('#menu-container').css("padding-top", "25px");
+			$('.menu').css("padding", "15px 20px");
+		} else {
+			$('#header-bg').css("height", "30px");
+			$('#name').css("font-size", "12pt");
+			$('#name').css("padding", "5px 0");
+			$('#main').css("padding-top", "120px");
+			$('#menu-container').css("padding-top", "0");
+			$('.menu').css("padding", "6px 20px");
+		}
+	});
+
+
+
+});
+</script>
+</html>
