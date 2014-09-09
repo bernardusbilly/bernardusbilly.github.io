@@ -66,9 +66,6 @@ a {
 	font-size: 12pt;
 }
 
-#introduction-left {
-}
-
 #introduction-right {
 	text-align: right;
 	padding-top: 30px;
@@ -82,27 +79,21 @@ a {
 	margin-bottom: 20px;
 }
 
-.entry-left .h2 {
+.entry .h2 {
 	color: rgb(100, 100, 255);
 }
 
-.entry-left .item {
-	font-size: 16pt;
+.item {
 	padding-left: 25px;
+	padding-bottom: 20px;
 }
 
-.entry-left .item-info {
-	font-size: 10pt;
+.item .item-header {
+	font-size: 16pt;
+}
+
+.item .item-info {
 	color: #CCC;
-}
-
-.entry-left .item-description {
-	font-size: 12pt;
-	padding-bottom: 15px;
-}
-
-.entry-right {
-
 }
 
 #footer {
