@@ -1,0 +1,32 @@
+/* responsive.css created by Bernardus Billy Tjiptoning on September 2014 */
+
+@media (max-width: 768px) {
+	#name {
+		font-size: 16pt;
+		padding: 10pt 0 0 0;
+		text-align: center;
+	}
+	#menu-container {
+		padding-top: 9px;
+		text-align: center;
+	}
+	.menu {
+		padding: 15px 10px;
+	}
+}
+@media (min-width: 769px) and (max-width: 991px) {
+	#name {
+		font-size: 18pt;
+		padding: 35px 0;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#name {
+		font-size: 30pt;
+	}
+}
+@media (min-width: 1200px) {
+	#name {
+		font-size: 30pt;
+	}
+}
