@@ -1,6 +1,6 @@
 /* responsive.css created by Bernardus Billy Tjiptoning on September 2014 */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#name {
 		font-size: 16pt;
 		padding: 10pt 0 0 0;
@@ -11,33 +11,35 @@
 		text-align: center;
 	}
 	.menu {
-		padding: 15px 10px;
+		padding: 15px 5px;
 	}
-
 	#introduction {
 		font-size: 14px;
 	}
-
 	#introduction .h2 {
 		font-size: 20pt;
 	}
-
 	.entry .h2 {
 		font-size: 20pt;
 	}
-
 	.entry .item-header {
 		font-size: 14pt;
 	}
-
 	.entry .item-info {
 		font-size: 8pt;
 	}
+	.hide-for-xs {
+		display: none;
+	}
+
 }
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	#name {
 		font-size: 18pt;
 		padding: 35px 0;
+	}
+	.menu {
+		padding: 15px 10px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {

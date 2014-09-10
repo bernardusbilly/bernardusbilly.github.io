@@ -7,16 +7,16 @@ $(document).ready(function() {
 		var winWidth = $(window).width();
 
 		if (top < 40) {
-			if (winWidth < 769) {
+			if (winWidth < 768) {
 				$('#name').css("font-size", "16pt");
 				$('#name').css("padding", "10pt 0 0 0");
 				$('#menu-container').css("padding-top", "9px");
-				$('.menu').css("padding", "15px 10px");
+				$('.menu').css("padding", "15px 5px");
 			} else if (winWidth < 992) {
 				$('#name').css("font-size", "18pt");
 				$('#name').css("padding", "35px 0");
 				$('#menu-container').css("padding-top", "25px");
-				$('.menu').css("padding", "15px 20px");
+				$('.menu').css("padding", "15px 10px");
 			} else {
 				$('#name').css("font-size", "30pt");
 				$('#name').css("padding", "20px 0");
@@ -28,6 +28,8 @@ $(document).ready(function() {
 			$('#main').css("padding-top", "120px");
 		} else {
 			if (winWidth < 769) {
+				$('.menu').css("padding", "6px 5px");
+			} else if (winWidth < 992) {
 				$('.menu').css("padding", "6px 10px");
 			} else {
 				$('.menu').css("padding", "6px 20px");
@@ -45,16 +47,16 @@ $(document).ready(function() {
 		winWidth = $(window).width();
 
 		if ($('#header').height() > 50) {
-			if (winWidth < 769) {
+			if (winWidth < 768) {
 				$('#name').css("font-size", "16pt");
 				$('#name').css("padding", "10pt 0 0 0");
 				$('#menu-container').css("padding-top", "9px");
-				$('.menu').css("padding", "15px 10px");
+				$('.menu').css("padding", "15px 5px");
 			} else if (winWidth < 992) {
 				$('#name').css("font-size", "18pt");
 				$('#name').css("padding", "35px 0");
 				$('#menu-container').css("padding-top", "25px");
-				$('.menu').css("padding", "15px 20px");
+				$('.menu').css("padding", "15px 10px");
 			} else {
 				$('#name').css("font-size", "30pt");
 				$('#name').css("padding", "20px 0");
@@ -63,6 +65,8 @@ $(document).ready(function() {
 			}
 		} else {
 			if (winWidth < 769) {
+				$('.menu').css("padding", "6px 5px");
+			} else if (winWidth < 992) {
 				$('.menu').css("padding", "6px 10px");
 			} else {
 				$('.menu').css("padding", "6px 20px");
