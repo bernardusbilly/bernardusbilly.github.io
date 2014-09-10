@@ -13,6 +13,26 @@
 	.menu {
 		padding: 15px 10px;
 	}
+
+	#introduction {
+		font-size: 14px;
+	}
+
+	#introduction .h2 {
+		font-size: 20pt;
+	}
+
+	.entry .h2 {
+		font-size: 20pt;
+	}
+
+	.entry .item-header {
+		font-size: 14pt;
+	}
+
+	.entry .item-info {
+		font-size: 8pt;
+	}
 }
 @media (min-width: 769px) and (max-width: 991px) {
 	#name {
