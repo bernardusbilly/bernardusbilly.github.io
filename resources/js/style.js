@@ -6,11 +6,7 @@ $(document).ready(function() {
 		var top = $(window).scrollTop();
 		var winWidth = $(window).width();
 
-		$('#header').css("top", top);
-
-		if (top < 0) {
-			$('#header').css("top", "0");
-		} else if (top < 40) {
+		if (top < 40) {
 			if (winWidth < 769) {
 				$('#name').css("font-size", "16pt");
 				$('#name').css("padding", "10pt 0 0 0");
