@@ -14,7 +14,7 @@
 		padding: 15px 5px;
 	}
 	#introduction {
-		font-size: 14px;
+		font-size: 12pt;
 	}
 	#introduction .h2 {
 		font-size: 20pt;
@@ -31,7 +31,6 @@
 	.hide-for-xs {
 		display: none;
 	}
-
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	#name {
