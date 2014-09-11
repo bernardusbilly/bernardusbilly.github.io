@@ -28,7 +28,7 @@ $(document).ready(function() {
 			$('#main').css("padding-top", "120px");
 		} else {
 			if (winWidth < 769) {
-				$('.menu').css("padding", "6px 5px");
+				$('.menu').css("padding", "6px 0px");
 			} else if (winWidth < 992) {
 				$('.menu').css("padding", "6px 10px");
 			} else {
