@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 		if (top < 40) {
 			if (winWidth < 768) {
-				$('#name').css("font-size", "16pt");
+				$('#name').css("font-size", "15pt");
 				$('#name').css("padding", "10pt 0 0 0");
 				$('#menu-container').css("padding-top", "9px");
 				$('.menu').css("padding", "15px 2px");
@@ -24,7 +24,7 @@ $(document).ready(function() {
 				$('.menu').css("padding", "15px 20px");
 			}
 			$('#name').removeClass("hidden-xs");
-			$('#header-bg').css("height", "100px");
+			$('#header').css("height", "100px");
 			$('#main').css("padding-top", "120px");
 		} else {
 			if (winWidth < 769) {
@@ -35,7 +35,7 @@ $(document).ready(function() {
 				$('.menu').css("padding", "6px 20px");
 			}
 			$('#name').addClass("hidden-xs");
-			$('#header-bg').css("height", "30px");
+			$('#header').css("height", "32px");
 			$('#name').css("font-size", "12pt");
 			$('#name').css("padding", "5px 0");
 			$('#main').css("padding-top", "120px");
@@ -48,7 +48,7 @@ $(document).ready(function() {
 
 		if ($('#header').height() > 50) {
 			if (winWidth < 768) {
-				$('#name').css("font-size", "16pt");
+				$('#name').css("font-size", "15pt");
 				$('#name').css("padding", "10pt 0 0 0");
 				$('#menu-container').css("padding-top", "9px");
 				$('.menu').css("padding", "15px 2px");
