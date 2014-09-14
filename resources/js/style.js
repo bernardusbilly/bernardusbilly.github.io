@@ -1,18 +1,31 @@
 $(document).ready(function() {
 	
 	console.log("HTML Ready");
+	var indicator;
+	var winWidth;
+	var currentWindow = "default";
 
 	$(window).scroll(function() {
 		var top = $(window).scrollTop();
-		var winWidth = $(window).width();
+		indicator = $('#name').width();
+		winWidth = $(window).width();
+		if (indicator == 448) {
+			currentWindow = "lg";
+		} else if (indicator == 485) {
+			currentWindow = "md";
+		} else if (indicator == 313); {
+			currentWindow = "sm";
+		} else {
+			currentWindow = "xs";
+		}
 
 		if (top < 40) {
-			if (winWidth < 768) {
+			if (currentWindow == "xs") {
 				$('#name').css("font-size", "16pt");
 				$('#name').css("padding", "10pt 0 0 0");
 				$('#menu-container').css("padding-top", "9px");
 				$('.menu').css("padding", "15px 2px");
-			} else if (winWidth < 992) {
+			} else if (currentWindow == "md") {
 				$('#name').css("font-size", "18pt");
 				$('#name').css("padding", "35px 0");
 				$('#menu-container').css("padding-top", "25px");
@@ -27,9 +40,9 @@ $(document).ready(function() {
 			$('#header-bg').css("height", "100px");
 			$('#main').css("padding-top", "120px");
 		} else {
-			if (winWidth < 769) {
+			if (currentWindow == "xs") {
 				$('.menu').css("padding", "6px 2px");
-			} else if (winWidth < 992) {
+			} else if (currentWindow == "md") {
 				$('.menu').css("padding", "6px 10px");
 			} else {
 				$('.menu').css("padding", "6px 20px");
@@ -45,15 +58,15 @@ $(document).ready(function() {
 
 	$(window).resize(function() {
 		winWidth = $(window).width();
-		console.log("Windows width: " + winWidth);
+		indicator = $('#name').width();
 
 		if ($('#header').height() > 50) {
-			if (winWidth < 768) {
+			if (currentWindow == "xs") {
 				$('#name').css("font-size", "16pt");
 				$('#name').css("padding", "10pt 0 0 0");
 				$('#menu-container').css("padding-top", "9px");
 				$('.menu').css("padding", "15px 2px");
-			} else if (winWidth < 992) {
+			} else if (currentWindow == "md") {
 				$('#name').css("font-size", "18pt");
 				$('#name').css("padding", "35px 0");
 				$('#menu-container').css("padding-top", "25px");
@@ -65,9 +78,9 @@ $(document).ready(function() {
 				$('.menu').css("padding", "15px 20px");
 			}
 		} else {
-			if (winWidth < 769) {
+			if (currentWindow == "xs") {
 				$('.menu').css("padding", "6px 2px");
-			} else if (winWidth < 992) {
+			} else if (currentWindow == "md") {
 				$('.menu').css("padding", "6px 10px");
 			} else {
 				$('.menu').css("padding", "6px 20px");
