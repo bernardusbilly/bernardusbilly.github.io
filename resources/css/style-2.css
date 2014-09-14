@@ -1,0 +1,100 @@
+/* style.css created by Bernardus Billy Tjiptoning on September 2014 */
+
+body {
+	position: relative;
+}
+a {
+	color: inherit;
+}
+
+#header {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	width: 100%;
+	font-family: 'Raleway', Arial;
+	border-bottom: 2px solid #EEE;
+}
+#header-bg {
+	width: 100%;
+	height: 100px;
+	background-color: #FFF;
+}
+#name {
+	padding: 20px 0;
+	color: #333;
+	font-size: 30pt;
+}
+#menu-container {
+	padding-top: 25px;
+	font-size: 10pt;
+	color: #AAA;
+}
+.menu {
+	display: inline-block;
+	padding: 15px 20px;
+}
+.menu:hover {
+	color: rgb(100, 100, 255);
+	text-decoration: none;
+	border-bottom: 2px solid rgb(100, 100, 255);
+}
+.menu-active {
+	color: rgb(100, 100, 255);
+	border-bottom: 2px solid rgb(100, 100, 255);
+}
+#main {
+	min-height: 800px;
+	padding-top: 120px;
+	font-family: 'Abel', Arial;
+	text-align: justify;
+}
+#main a {
+	color: rgb(100, 100, 255);
+}
+#introduction {
+	font-size: 12pt;
+}
+#introduction-right {
+	text-align: right;
+	padding-top: 30px;
+}
+#about-this-site {
+	padding-top: 20px;
+}
+.entry {
+	margin-bottom: 20px;
+	font-size: 12pt;
+}
+.entry .h2 {
+	color: rgb(100, 100, 255);
+}
+#resume-link {
+	display: inline-block;
+	border-radius: 5px;
+	border: 2px solid #444;
+	background-color: rgb(215, 215, 255);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.item {
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+.item .item-header {
+	font-size: 16pt;
+}
+.item .item-info {
+	color: #CCC;
+}
+#footer {
+	font-family: 'Raleway', Arial;
+}
+#footer .container {
+	border-top: 1px solid #333;
+	margin-top: 30px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	text-align: right;
+}
+
