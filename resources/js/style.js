@@ -45,7 +45,6 @@ $(document).ready(function() {
 
 	$(window).resize(function() {
 		winWidth = $(window).width();
-		console.log("Windows width: " + winWidth);
 
 		if ($('#header').height() > 50) {
 			if (winWidth < 768) {
