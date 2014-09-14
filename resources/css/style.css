@@ -3,7 +3,6 @@
 body {
 	position: relative;
 }
-
 a {
 	color: inherit;
 }
@@ -45,7 +44,7 @@ a {
 	border-bottom: 2px solid rgb(100, 100, 255);
 }
 #main {
-	min-height: 700px;
+	min-height: 800px;
 	padding-top: 120px;
 	font-family: 'Abel', Arial;
 	text-align: justify;
@@ -69,6 +68,13 @@ a {
 }
 .entry .h2 {
 	color: rgb(100, 100, 255);
+}
+#resume-link {
+	display: inline-block;
+	border-radius: 5px;
+	border: 2px solid #444;
+	background-color: rgb(215, 215, 255);
+	padding: 10px;
 }
 .item {
 	padding-left: 25px;
