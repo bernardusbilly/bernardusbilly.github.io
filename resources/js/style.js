@@ -13,7 +13,7 @@ $(document).ready(function() {
 			currentWindow = "lg";
 		} else if (indicator == 485) {
 			currentWindow = "md";
-		} else if (indicator == 313); {
+		} else if (indicator == 313) {
 			currentWindow = "sm";
 		} else {
 			currentWindow = "xs";
