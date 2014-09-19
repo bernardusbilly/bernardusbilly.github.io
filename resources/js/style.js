@@ -10,7 +10,7 @@ $(document).ready(function() {
 	var footerHeight = $('#footer').height();
 
 	if (headerHeight+mainHeight+footerHeight < winHeight) {
-		mainHeight = winHeight - headerHeight - footerHeight + 60;
+		mainHeight = winHeight - headerHeight - footerHeight + 70;
 		$('#main').css("min-height", mainHeight);
 	}
 
@@ -87,7 +87,7 @@ $(document).ready(function() {
 		}
 
 		if (headerHeight+mainHeight+footerHeight < winHeight) {
-			mainHeight = winHeight - headerHeight - footerHeight + 60;
+			mainHeight = winHeight - headerHeight - footerHeight + 70;
 			$('#main').css("min-height", mainHeight);
 		}
 	});
