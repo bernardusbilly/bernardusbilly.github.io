@@ -10,8 +10,8 @@ $(document).ready(function() {
 	var footerHeight = $('#footer').height();
 
 	if (headerHeight+mainHeight+footerHeight < winHeight) {
-		footerHeight = winHeight - headerHeight - mainHeight;
-		$('#footer .container').css("height", footerHeight);
+		mainHeight = winHeight - headerHeight - footerHeight;
+		$('#main').css("min-height", mainHeight);
 	}
 
 	$(window).scroll(function() {
@@ -87,8 +87,8 @@ $(document).ready(function() {
 		}
 
 		if (headerHeight+mainHeight+footerHeight < winHeight) {
-			footerHeight = winHeight - headerHeight - mainHeight;
-			$('#footer .container').css("height", footerHeight);
+			mainHeight = winHeight - headerHeight - footerHeight;
+			$('#main').css("min-height", mainHeight);
 		}
 	});
 });
