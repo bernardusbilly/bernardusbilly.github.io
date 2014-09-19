@@ -2,9 +2,21 @@ $(document).ready(function() {
 	
 	console.log("HTML Ready");
 
+	var top;
+	var winWidth;
+	var winHeight = $(window).height();
+	var headerHeight = $('#header').height();
+	var mainHeight = $('#main').height();
+	var footerHeight = $('#footer').height();
+
+	if (headerHeight+mainHeight+footerHeight < winHeight) {
+		footerHeight = winHeight - headerHeight - mainHeight;
+		$('#footer .container').css("height", footerHeight);
+	}
+
 	$(window).scroll(function() {
-		var top = $(window).scrollTop();
-		var winWidth = $(window).width();
+		top = $(window).scrollTop();
+		winWidth = $(window).width();
 
 		if (top < 40) {
 			if (winWidth < 768) {
@@ -44,6 +56,7 @@ $(document).ready(function() {
 	});
 
 	$(window).resize(function() {
+
 		winWidth = $(window).width();
 
 		if ($('#header').height() > 50) {
@@ -71,6 +84,11 @@ $(document).ready(function() {
 			} else {
 				$('.menu').css("padding", "6px 20px");
 			}
+		}
+
+		if (headerHeight+mainHeight+footerHeight < winHeight) {
+			footerHeight = winHeight - headerHeight - mainHeight;
+			$('#footer .container').css("height", footerHeight);
 		}
 	});
 });
