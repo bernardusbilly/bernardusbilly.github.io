@@ -71,6 +71,10 @@ a {
 .entry .h2 {
 	color: rgb(100, 100, 255);
 }
+.preview {
+	width: 90%;
+	float: right;
+}
 #resume-link {
 	display: inline-block;
 	border-radius: 5px;
