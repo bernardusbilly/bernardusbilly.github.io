@@ -8,12 +8,7 @@
 
 	<link rel="icon" type="image/png" href="http://bernardusbilly.com/favicon.png">
 
-	<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./resources/css/style.css">
-	<link rel="stylesheet" href="./resources/css/responsive.css">
-	<link rel="stylesheet" href="./resources/css/normalize.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Abel|Raleway' rel='stylesheet' type='text/css'>
+	<?php include 'css_loader.php' ?>
 </head>
 <body>
 	<div id="header">

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<!-- index.html -->
+<!DOCTYPE php>
+<!-- index.php -->
 <html lang="en">
 
 <head>
