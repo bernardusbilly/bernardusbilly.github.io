@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<!-- resume.html -->
+<!DOCTYPE php>
+<!-- resume.php -->
 <html lang="en">
 <head>
 	<title>Bernardus Billy Tjiptoning</title>
@@ -8,12 +8,7 @@
 
 	<link rel="icon" type="image/png" href="http://bernardusbilly.com/favicon.png">
 
-	<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./resources/css/style.css">
-	<link rel="stylesheet" href="./resources/css/responsive.css">
-	<link rel="stylesheet" href="./resources/css/normalize.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Abel|Raleway' rel='stylesheet' type='text/css'>
+	<?php include 'css_loader.php' ?>
 </head>
 <body>
 	<div id="header">
@@ -72,8 +67,5 @@
 		</div>
 	</div>
 </body>
-<script type="text/javascript" src="./resources/js/jquery-1.11.0.js"></script>
-<script type="text/javascript" src="./resources/js/style.js"></script>
-<script type="text/javascript" src="./resources/js/google-analytics.js"></script>
-
+<?php include 'js_loader.php' ?>
 </html>
