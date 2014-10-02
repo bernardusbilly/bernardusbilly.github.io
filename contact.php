@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<!-- resume.html -->
+<!DOCTYPE php>
+<!-- resume.php -->
 <html lang="en">
 <head>
 	<title>Bernardus Billy Tjiptoning</title>
@@ -67,8 +67,5 @@
 		</div>
 	</div>
 </body>
-<script type="text/javascript" src="./resources/js/jquery-1.11.0.js"></script>
-<script type="text/javascript" src="./resources/js/style.js"></script>
-<script type="text/javascript" src="./resources/js/google-analytics.js"></script>
-
+<?php include 'js_loader.php' ?>
 </html>
