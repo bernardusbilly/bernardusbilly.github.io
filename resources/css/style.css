@@ -102,9 +102,18 @@ a {
 #footer .container {
 	background-color: #CCC;
 	margin-top: 30px;
-	padding-top: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-bottom: 15px;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+}
+#footer-left {
+	float: left;
+	padding-left: 20px;
+}
+#footer-right {
+	float: right;
 }
 
