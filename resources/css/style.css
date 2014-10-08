@@ -74,15 +74,28 @@ a {
 .preview {
 	width: 90%;
 	float: right;
+	opacity: 0.5;
+	transition: 0.2s;
+}
+.preview:hover {
+	opacity: 1;
+	transition: 0.2s;
 }
 #resume-link {
 	display: inline-block;
 	border-radius: 5px;
-	border: 2px solid #444;
-	background-color: rgb(215, 215, 255);
-	padding: 10px;
+	font-size: 14pt;
+	color: #FFF;
+	border: 3px solid rgb(100, 100, 255);
+	background-color: rgb(100, 100, 255);
+	padding: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+#resume-link:hover {
+	background-color: #FFF;
+	color: rgb(100, 100, 255);
+	transition: 0.2s;
 }
 .item {
 	border-top: 1px solid #EEE;
@@ -109,10 +122,3 @@ a {
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
-#footer-left {
-	float: left;
-}
-#footer-right {
-	float: right;
-}
-
