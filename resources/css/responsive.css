@@ -2,16 +2,15 @@
 
 @media (max-width: 767px) {
 	#name {
-		font-size: 15pt;
-		padding: 10pt 0 0 0;
+		font-size: 16pt;
+		padding: 20px 0 0 0;
 		text-align: center;
 	}
 	#menu-container {
-		padding-top: 9px;
 		text-align: center;
 	}
 	.menu {
-		padding: 40px 2px;
+		padding: 15px 2px;
 	}
 	#introduction {
 		font-size: 12pt;
