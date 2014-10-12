@@ -1,0 +1,68 @@
+/* bisa.css */
+#photoset-frame {
+	width: 100%;
+}
+#photoset-frame {
+	position: relative;
+	height: auto;
+}
+#photoset-frame > img {
+	transition: 0.2s;
+	position: absolute;
+	opacity: 0;
+}
+#photoset-frame > img:hover{
+	transition: 0.2s;
+	opacity: 1;
+}
+#richard {
+	width: 11.26%;
+	top: 31.8%;
+	left: 4.3%;
+}
+#philmon {
+	width: 11.02%;
+	top: 32.94%;
+	left: 14.43%;
+	
+}
+#nathan {
+	width: 10.56%;
+	top: 33.9%;
+	left: 24.22%;
+}
+#farrah {
+	width: 8.93%;
+	top: 34.25%;
+	left: 33.35%;
+}
+#gian {
+	width: 11.74%;
+	top: 29.5%;
+	left: 41.2%;
+}
+#stanley {
+	width: 10.9%;
+	top: 31.9%;
+	left: 52.5%;
+}
+#clarissa {
+	width: 9.35%;
+	top: 34.25%;
+	left: 61.35%;
+}
+#ap {
+	width: 9.58%;
+	top: 33.2%;
+	left: 69.1%;
+}
+#jhame {
+	width: 10.2%;
+	top: 31.3%;
+	left: 76.22%;
+}
+#jusuf {
+	width: 12.7%;
+	top: 30.6%;
+	left: 83.4%;
+}
