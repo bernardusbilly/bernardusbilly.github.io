@@ -13,11 +13,13 @@ $(document).ready(function() {
 			$(this).hover(function() {
 				$('#' + name + '-info').css("left", shift_right+"%");
 				$('#photoset-info').css("border-left", "3px solid black");
-				$('#background').attr("src", "resources/img/bisa-bw.jpg");
+				$('#background').css("opacity", "0");
+				$('#background-bw').css("opacity", "1");
 			}, function() {
 				$('#' + name + '-info').css("left", "-200%");
 				$('#photoset-info').css("border-left", "0px");
-				$('#background').attr("src", "resources/img/bisa.jpg");
+				$('#background').css("opacity", "1");
+				$('#background-bw').css("opacity", "0");
 			});
 		}
 	});
