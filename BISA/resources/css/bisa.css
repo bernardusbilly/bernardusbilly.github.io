@@ -1,4 +1,5 @@
 /* bisa.css */
+
 #photoset-frame {
 	width: 100%;
 }
@@ -20,13 +21,13 @@
 }
 #philmon-photo {
 	width: 11.02%;
-	top: 32.94%;
+	top: 32.97%;
 	left: 14.43%;
 }
 #nathan-photo {
-	width: 10.56%;
+	width: 10.58%;
 	top: 33.9%;
-	left: 24.22%;
+	left: 24.23%;
 }
 #farrah-photo {
 	width: 8.96%;
@@ -50,8 +51,8 @@
 }
 #ap-photo {
 	width: 9.58%;
-	top: 33.2%;
-	left: 69%;
+	top: 33.18%;
+	left: 69.05%;
 }
 #jhame-photo {
 	width: 10.2%;
@@ -59,7 +60,7 @@
 	left: 76.22%;
 }
 #jusuf-photo {
-	width: 12.7%;
+	width: 12.75%;
 	top: 30.6%;
 	left: 83.4%;
 }
@@ -72,6 +73,8 @@
 	height: 100px;
 }
 #photoset-info .info {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 	transition: 0.5s;
 	position: absolute;
 	left: -200%;
@@ -79,3 +82,18 @@
 	font-size: 16px;
 	padding: 10px 20px;
 }
+
+/* customization-bootstrap */
+.navbar-inverse .navbar-brand {
+	color: #FFF;
+}
+.navbar-inverse .navbar-brand:hover {
+	background: rgba(0,0,0,0.2);
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFF;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	background: rgba(0,0,0,0.2);
+}
+

@@ -3,32 +3,44 @@
 @media (max-width: 767px) {
 	#photoset-info {
 		width: 400px;
+		height: 35px;
+		top: 20%;
 	}
 	#photoset-info > .info {
-		font-size: 8px;
+		font-size: 6px;
+		padding: 5px 8px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	#photoset-info {
 		width: 500px;
+		height: 58px;
+		top: 15%;
 	}
 	#photoset-info > .info {
-		font-size: 12px;
+		font-size: 10px;
+		padding: 8px 12px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	#photoset-info {
-		width: 600px;
+		width: 700px;
+		height: 80px;
+		top: 15%;
 	}
 	#photoset-info > .info {
 		font-size: 14px;
+		padding: 10px 15px;
 	}
 }
 @media (min-width: 1200px) {
 	#photoset-info {
-		width: 700px;
+		width: 800px;
+		height: 95px;
+		top: 15%;
 	}
 	#photoset-info > .info {
-		font-size: 16px;
+		font-size: 18px;
+		padding: 10px 20px;
 	}
 }
