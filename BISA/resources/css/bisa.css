@@ -7,62 +7,75 @@
 	height: auto;
 }
 #photoset-frame > img {
-	transition: 0.2s;
 	position: absolute;
 	opacity: 0;
 }
-#photoset-frame > img:hover{
-	transition: 0.2s;
+#photoset-frame > img:hover {
 	opacity: 1;
 }
-#richard {
+#richard-photo {
 	width: 11.26%;
 	top: 31.8%;
 	left: 4.3%;
 }
-#philmon {
+#philmon-photo {
 	width: 11.02%;
 	top: 32.94%;
 	left: 14.43%;
-	
 }
-#nathan {
+#nathan-photo {
 	width: 10.56%;
 	top: 33.9%;
 	left: 24.22%;
 }
-#farrah {
-	width: 8.93%;
+#farrah-photo {
+	width: 8.96%;
 	top: 34.25%;
 	left: 33.35%;
 }
-#gian {
+#gian-photo {
 	width: 11.74%;
 	top: 29.5%;
 	left: 41.2%;
 }
-#stanley {
+#stanley-photo {
 	width: 10.9%;
-	top: 31.9%;
-	left: 52.5%;
+	top: 31.82%;
+	left: 52.52%;
 }
-#clarissa {
+#clarissa-photo {
 	width: 9.35%;
 	top: 34.25%;
 	left: 61.35%;
 }
-#ap {
+#ap-photo {
 	width: 9.58%;
 	top: 33.2%;
-	left: 69.1%;
+	left: 69%;
 }
-#jhame {
+#jhame-photo {
 	width: 10.2%;
 	top: 31.3%;
 	left: 76.22%;
 }
-#jusuf {
+#jusuf-photo {
 	width: 12.7%;
 	top: 30.6%;
 	left: 83.4%;
+}
+#photoset-info {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	overflow: hidden;
+	width: 700px;
+	height: 100px;
+}
+#photoset-info .info {
+	transition: 0.5s;
+	position: absolute;
+	left: -200%;
+	background: rgba(255,255,255,0.7);
+	font-size: 16px;
+	padding: 10px 20px;
 }
