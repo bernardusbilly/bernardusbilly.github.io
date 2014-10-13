@@ -1,5 +1,9 @@
 /* bisa.css */
 
+body {
+	font-family: Raleway, Arial;
+}
+
 #photoset-frame {
 	width: 100%;
 }
