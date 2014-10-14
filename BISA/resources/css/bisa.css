@@ -14,9 +14,14 @@ body {
 #photoset-frame > img {
 	position: absolute;
 	opacity: 0;
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+
 }
 #photoset-frame > img:hover {
 	opacity: 1;
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
 }
 #richard-photo {
 	width: 11.26%;
