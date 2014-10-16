@@ -1,0 +1,70 @@
+/* bisa-responsive.css*/
+
+@media (max-width: 767px) {
+	#photoset-info {
+		width: 400px;
+		height: 35px;
+		top: 20%;
+	}
+	#photoset-info > .info {
+		font-size: 5px;
+		padding: 5px 8px;
+	}
+	.info {
+		line-height: 7px;
+	}
+	.name {
+		font-size: 12px;
+	}
+	.position {
+		font-size: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#photoset-info {
+		width: 500px;
+		height: 58px;
+		top: 18%;
+	}
+	#photoset-info > .info {
+		font-size: 8px;
+		padding: 8px 12px;
+	}
+	.info {
+		line-height: 10px;
+	}
+	.name {
+		font-size: 16px;
+	}
+	.position {
+		font-size: 6px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#photoset-info {
+		width: 700px;
+		height: 80px;
+		top: 15%;
+	}
+	#photoset-info > .info {
+		font-size: 12px;
+		padding: 10px 15px;
+	}
+	.info {
+		line-height: 15px;
+	}
+	.name {
+		font-size: 20px;
+	}
+}
+@media (min-width: 1200px) {
+	#photoset-info {
+		width: 800px;
+		height: 95px;
+		top: 15%;
+	}
+	#photoset-info > .info {
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+}
