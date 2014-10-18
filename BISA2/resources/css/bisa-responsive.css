@@ -23,7 +23,7 @@
 		font-size: 40px;
 	}
 	.about-section {
-		display: block;
+	    height: 800px;
 	    padding-top: 30px;
 	    font-size: 10px;
 	}

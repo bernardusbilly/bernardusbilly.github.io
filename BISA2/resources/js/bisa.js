@@ -37,7 +37,7 @@ $(document).ready(function() {
 	});
 
 	// shorten the Berkeley Indonesian Student Association to BISA when in mobile-version
-		
+
 	$(window).resize(function() {
 
 		intro_height = $('#photoset-frame').height();
