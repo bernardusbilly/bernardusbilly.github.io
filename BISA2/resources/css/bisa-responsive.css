@@ -11,13 +11,13 @@
 		padding: 5px 8px;
 	}
 	.info {
-		line-height: 7px;
+		line-height: 6px;
 	}
 	.name {
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.position {
-		font-size: 5px;
+		font-size: 4px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -47,7 +47,7 @@
 		top: 15%;
 	}
 	#photoset-info > .info {
-		font-size: 12px;
+		font-size: 10px;
 		padding: 10px 15px;
 	}
 	.info {
@@ -61,10 +61,10 @@
 	#photoset-info {
 		width: 800px;
 		height: 95px;
-		top: 15%;
+		top: 18%;
 	}
 	#photoset-info > .info {
-		font-size: 14px;
+		font-size: 12px;
 		padding: 10px 20px;
 	}
 }

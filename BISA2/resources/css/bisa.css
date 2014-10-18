@@ -33,13 +33,13 @@ body {
 	left: 14.47%;
 }
 #nathan-photo {
-	width: 10.58%;
-	top: 33.87%;
-	left: 24.25%;
+	width: 10.56%;
+	top: 33.90%;
+	left: 24.24%;
 }
 #farrah-photo {
-	width: 8.96%;
-	top: 34.25%;
+	width: 8.94%;
+	top: 34.27%;
 	left: 33.35%;
 }
 #gian-photo {
@@ -48,14 +48,14 @@ body {
 	left: 41.2%;
 }
 #stanley-photo {
-	width: 10.9%;
-	top: 31.81%;
-	left: 52.58%;
+	width: 10.88%;
+	top: 31.87%;
+	left: 52.56%;
 }
 #clarissa-photo {
-	width: 9.35%;
+	width: 9.33%;
 	top: 34.25%;
-	left: 61.37%;
+	left: 61.35%;
 }
 #ap-photo {
 	width: 9.58%;
@@ -93,7 +93,7 @@ body {
 
 
 .info {
-	line-height: 20px;
+	line-height: 18px;
 }
 .name {
 	font-size: 26px;
@@ -115,5 +115,9 @@ body {
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color: #FFF;
+}
+.h1 {
+	font-size: 40px;
+	color: #444;
 }
 
