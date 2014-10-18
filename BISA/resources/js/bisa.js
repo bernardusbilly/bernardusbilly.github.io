@@ -34,17 +34,15 @@ $(document).ready(function() {
 
 	// shorten the Berkeley Indonesian Student Association to BISA when in mobile-version
 
-	if ($(window).width() < 441) {
-		$('#header .navbar-brand').html("BISA");
-	} else {
-		$('#header .navbar-brand').html("Berkeley Indonesian Student Association");
-	}
-		
+	var intro_height = $('#background').height();
+	console.log("photoset-frame" + intro_height);
+	$('#intro').css("height",  intro_height);
+	console.log("#intro:" + $('#intro').height());
+
 	$(window).resize(function() {
-		if ($(window).width() < 441) {
-			$('#header .navbar-brand').html("BISA");
-		} else {
-			$('#header .navbar-brand').html("Berkeley Indonesian Student Association");
-		}
+
+		intro_height = $('#background').height();
+		$('#intro').css("height",  intro_height);
+
 	});
 });
