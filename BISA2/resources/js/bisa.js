@@ -1,9 +1,5 @@
 $(document).ready(function() {
 	console.log("BISA.js ready");
-
-	var intro_height = $('#photoset-frame').height();
-
-	$('#intro').css("height",  intro_height);
 	
 	var names = $('#photoset-frame > img');
 
@@ -37,6 +33,11 @@ $(document).ready(function() {
 	});
 
 	// shorten the Berkeley Indonesian Student Association to BISA when in mobile-version
+
+	var intro_height = $('#photoset-frame').height();
+	console.log("photoset-frame" + intro_height);
+	$('#intro').css("height",  intro_height);
+	console.log("#intro:" + $('#intro').height());
 
 	$(window).resize(function() {
 
