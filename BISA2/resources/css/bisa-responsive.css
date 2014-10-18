@@ -19,6 +19,23 @@
 	.position {
 		font-size: 4px;
 	}
+	.about-section {
+	    height: 900px;
+	    padding-top: 50px;
+	}
+	#about-right {
+		padding-top: 50px;
+	}
+	.services-section {
+	    
+	}
+
+	.contact-section {
+
+	}
+	.footer-section {
+
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	#photoset-info {
@@ -39,6 +56,22 @@
 	.position {
 		font-size: 6px;
 	}
+	.about-section {
+		height: 1000px;
+		padding-top: 50px;
+	}
+	#about-right {
+		padding-top: 100px;
+	}
+	.services-section {
+	    height: 1000px;
+	}
+	.contact-section {
+		height: 1000px;
+	}
+	.footer-section {
+		
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	#photoset-info {
@@ -55,6 +88,18 @@
 	}
 	.name {
 		font-size: 20px;
+	}
+	.about-section {
+	}
+	#about-right {
+		padding-top: 50px;
+	}
+	.services-section {
+	}
+	.contact-section {
+	}
+	.footer-section {
+		
 	}
 }
 @media (min-width: 1200px) {
