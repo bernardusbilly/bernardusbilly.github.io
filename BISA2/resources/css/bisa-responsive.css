@@ -19,12 +19,16 @@
 	.position {
 		font-size: 4px;
 	}
+	.h1 {
+		font-size: 40px;
+	}
 	.about-section {
-	    height: 900px;
-	    padding-top: 50px;
+		display: block;
+	    padding-top: 30px;
+	    font-size: 10px;
 	}
 	#about-right {
-		padding-top: 50px;
+		padding-top: 30px;
 	}
 	.services-section {
 	    
