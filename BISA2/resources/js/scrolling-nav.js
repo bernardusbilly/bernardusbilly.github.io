@@ -2,10 +2,8 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $(".navbar-brand").html("Berkeley Indonesian Student Association");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".navbar-brand").html("<img src='resources/img/bisa_logo.png' style='width: 150px; position: relative; top: -10px;'>");
     }
 });
 

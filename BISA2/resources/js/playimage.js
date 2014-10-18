@@ -2,8 +2,6 @@
 $(document).ready(function(){
 	console.log("Playimage.js Ready");
 
-	// need update to resize the img-compound whenever parent() is resized
-
 	$('.img-compound').each(function() {
 		var image_lead = $(this).find("img:first");
 
