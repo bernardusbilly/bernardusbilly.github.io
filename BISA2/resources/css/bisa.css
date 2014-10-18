@@ -102,6 +102,9 @@ body {
 	font-size: 12px;
 	color: #AAA;
 }
+.soc-logo {
+	width: 30px;
+}
 
 /* customization-bootstrap */
 .navbar-default .navbar-brand {
