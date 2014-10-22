@@ -24,6 +24,11 @@
 	.h1 {
 		font-size: 40px;
 	}
+	#infoToHover {
+		top: 10%;
+		padding: 5px;
+		font-size: 10px;
+	}
 	.about-section,
 	.events-section,
 	.gallery-section,
