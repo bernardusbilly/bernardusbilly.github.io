@@ -1,23 +1,25 @@
 /* bisa-responsive.css*/
 
 @media (max-width: 767px) {
+	#photoset-frame {
+		transition: 0.5s;
+		margin-top: 50px;
+	}
 	#photoset-info {
-		width: 200px;
-		height: 35px;
-		top: 20%;
+		width: 350px;
+		height: 80px;
+		top: 65%;
 	}
 	#photoset-info > .info {
-		font-size: 5px;
-		padding: 5px 8px;
-	}
-	.info {
-		line-height: 6px;
+		font-size: 10px;
+		padding: 10px;
+		line-height: 14px;
 	}
 	.name {
-		font-size: 10px;
+		font-size: 20px;
 	}
 	.position {
-		font-size: 4px;
+		font-size: 10px;
 	}
 	.h1 {
 		font-size: 40px;
@@ -39,8 +41,6 @@
 	#photoset-info > .info {
 		font-size: 8px;
 		padding: 8px 12px;
-	}
-	.info {
 		line-height: 10px;
 	}
 	.name {
@@ -66,8 +66,6 @@
 	#photoset-info > .info {
 		font-size: 10px;
 		padding: 10px 15px;
-	}
-	.info {
 		line-height: 15px;
 	}
 	.name {
@@ -92,7 +90,7 @@
 		padding: 10px 20px;
 	}
 	.about-section {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 200px;
+		padding-bottom: 200px;
 	}
 }
