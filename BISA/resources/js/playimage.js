@@ -51,8 +51,18 @@ $(document).ready(function(){
 		image_lead.css("opacity", 1);
 
 		var counter = 0;
-		var shift_down = 30;
 		var shift_right = image_lead.width()/20;
+
+		/* _not implemented_ yet
+		$(this).find("img").each(function() {
+			counter+=1;
+		});
+
+		// reset counter
+		console.log($(this).parent().width());
+		var shift_right = $(this).parent().width()/counter;
+		counter = 0;
+		*/
 
 		// setup the location for all given <img>
 		$(this).find("img").each(function() {
@@ -66,7 +76,6 @@ $(document).ready(function(){
 
 		// setup the border for this img-compound
 		$(this).css("width", image_lead.width()+(shift_right*counter));
-		$(this).css("height", image_lead.height()+shift_down);
 
 		$(this).find("img").hover(function() {
 			// remove all front layer
