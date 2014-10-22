@@ -3,6 +3,13 @@
 body {
 	font-family: Raleway, Arial;
 }
+a {
+	color: #FDB515;
+}
+a:hover{
+	color: rgb(0, 50 ,98);
+	text-decoration: none;
+}
 
 #photoset-frame {
 	width: 100%;
@@ -90,8 +97,6 @@ body {
 	font-size: 16px;
 	padding: 10px 20px;
 }
-
-
 .info {
 	line-height: 18px;
 }
@@ -105,9 +110,13 @@ body {
 .soc-logo {
 	width: 30px;
 }
+#footer-right {
+	padding-top: 10px;
+}
 
 /* customization-bootstrap */
 .navbar-default {
+	background: rgba(0, 50 ,98, 0.9);
 	border-color: #FDB515;
 }
 .navbar-default .navbar-brand {

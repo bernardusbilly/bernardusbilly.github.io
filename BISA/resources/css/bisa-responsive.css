@@ -24,12 +24,18 @@
 	.h1 {
 		font-size: 40px;
 	}
-	#about-right {
-		padding-top: 30px;
-	}
-	.about-section {
+	.about-section,
+	.events-section,
+	.gallery-section,
+	.contact-section {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+	#about-right,
+	#events-left-mobile,
+	#gallery-right,
+	#contact-left {
+		padding-top: 30px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -49,12 +55,18 @@
 	.position {
 		font-size: 6px;
 	}
-	#about-right {
-		padding-top: 100px;
-	}
-	.about-section {
+	.about-section,
+	.events-section,
+	.gallery-section,
+	.contact-section {
 		padding-top: 50px;
 		padding-bottom: 50px;
+	}
+	#about-right,
+	#events-left-mobile,
+	#gallery-right,
+	#contact-left {
+		padding-top: 100px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -71,12 +83,18 @@
 	.name {
 		font-size: 20px;
 	}
-	#about-right {
-		padding-top: 50px;
-	}
-	.about-section {
+	.about-section,
+	.events-section,
+	.gallery-section,
+	.contact-section {
 		padding-top: 100px;
 		padding-bottom: 100px;
+	}
+	#about-right,
+	#events-left-mobile,
+	#gallery-right,
+	#contact-left {
+		padding-top: 50px;
 	}
 }
 @media (min-width: 1200px) {
