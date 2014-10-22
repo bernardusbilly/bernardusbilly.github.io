@@ -29,18 +29,18 @@ body {
 }
 #philmon-photo {
 	width: 11.04%;
-	top: 32.97%;
-	left: 14.47%;
+	top: 32.99%;
+	left: 14.45%;
 }
 #nathan-photo {
 	width: 10.56%;
-	top: 33.90%;
-	left: 24.24%;
+	top: 33.93%;
+	left: 24.25%;
 }
 #farrah-photo {
-	width: 8.94%;
-	top: 34.27%;
-	left: 33.35%;
+	width: 8.96%;
+	top: 34.25%;
+	left: 33.33%;
 }
 #gian-photo {
 	width: 11.74%;
@@ -107,6 +107,9 @@ body {
 }
 
 /* customization-bootstrap */
+.navbar-default {
+	border-color: #FDB515;
+}
 .navbar-default .navbar-brand {
 	color: #CCC;
 }
@@ -118,6 +121,11 @@ body {
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color: #FFF;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+	background-color: #FDB515;
 }
 .h1 {
 	font-size: 60px;
