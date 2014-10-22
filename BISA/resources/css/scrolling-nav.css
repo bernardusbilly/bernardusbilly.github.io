@@ -33,12 +33,14 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     display: block;
+    min-height: 100%;
     text-align: center;
     background: #fff;
 }
 
 .about-section {
     display: block;
+    min-height: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -48,6 +50,7 @@ of those sections to manage the look and feel of the site. */
 
 .services-section {
     display: block;
+    min-height: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -56,6 +59,7 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     display: block;
+    min-height: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
