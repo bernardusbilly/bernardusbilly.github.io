@@ -10,6 +10,21 @@ a:hover{
 	color: rgb(0, 50 ,98);
 	text-decoration: none;
 }
+#load-page {
+	transition: 0.5s;
+	opacity: 1;
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 50 ,98, 0.95)
+}
+#load-page > div {
+	position: relative; 
+	top: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}
 #infoToHover{
 	position: absolute;
 	z-index: 1000;

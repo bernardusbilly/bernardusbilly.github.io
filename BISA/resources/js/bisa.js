@@ -1,5 +1,8 @@
-$(document).ready(function() {
+$(window).load(function() {
 	console.log("BISA.js ready");
+
+	$('#load-page').css("opacity", "0");
+	$('#load-page').css("z-index", "-100");
 	
 	var names = $('#photoset-frame > img');
 

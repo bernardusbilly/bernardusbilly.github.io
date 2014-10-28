@@ -1,0 +1,127 @@
+/* style.css created by Bernardus Billy Tjiptoning on September 2014 */
+
+body {
+	position: relative;
+}
+a {
+	color: inherit;
+}
+
+#header {
+	position: fixed;
+	transition: 0.5s;
+	z-index: 999;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background: #FFF;
+	background: rgba(255, 255, 255, 0.95);
+	font-family: 'Raleway', Arial;
+	border-bottom: 2px solid #EEE;
+}
+#header-bg {
+	width: 100%;
+}
+#name {
+	top: 0;
+	transition: 0.5s;
+	padding: 20px 0;
+	color: #333;
+	font-size: 30pt;
+}
+#menu-container {
+	top: 0;
+	font-size: 10pt;
+	color: #AAA;
+}
+.menu {
+	transition: padding 0.5s;
+	display: inline-block;
+	padding: 40px 20px;
+}
+.menu:hover {
+	color: rgb(100, 100, 255);
+	text-decoration: none;
+	border-bottom: 2px solid rgb(100, 100, 255);
+}
+.menu-active {
+	color: rgb(100, 100, 255);
+	border-bottom: 2px solid rgb(100, 100, 255);
+}
+#main {
+	min-height: 800px;
+	padding-top: 120px;
+	font-family: 'Abel', Arial;
+	text-align: justify;
+}
+#main a {
+	color: rgb(100, 100, 255);
+}
+#introduction {
+	font-size: 12pt;
+}
+#introduction-right {
+	text-align: right;
+	padding-top: 30px;
+}
+#about-this-site {
+	padding-top: 20px;
+}
+.entry {
+	margin-bottom: 20px;
+	font-size: 12pt;
+}
+.entry .h2 {
+	color: rgb(100, 100, 255);
+}
+.preview {
+	width: 90%;
+	float: right;
+	opacity: 0.5;
+	transition: 0.2s;
+}
+.preview:hover {
+	opacity: 1;
+	transition: 0.2s;
+}
+#resume-link {
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 14pt;
+	color: #FFF;
+	border: 3px solid rgb(100, 100, 255);
+	background-color: rgb(100, 100, 255);
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#resume-link:hover {
+	background-color: #FFF;
+	color: rgb(100, 100, 255);
+	transition: 0.2s;
+}
+.item {
+	border-top: 1px solid #EEE;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+.item .item-header {
+	font-size: 16pt;
+}
+.item .item-info {
+	color: #CCC;
+}
+#footer {
+	font-family: 'Raleway', Arial;
+}
+#footer .container {
+	background-color: #CCC;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 15px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
