@@ -51,6 +51,7 @@ a {
 #main {
 	min-height: 800px;
 	padding-top: 120px;
+	padding-bottom: 120px;
 	font-family: 'Abel', Arial;
 	text-align: justify;
 }
@@ -94,6 +95,7 @@ a {
 	padding: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	transition: 0.2s;
 }
 #resume-link:hover {
 	background-color: #FFF;
@@ -112,16 +114,21 @@ a {
 .item .item-info {
 	color: #CCC;
 }
+.socmed-logo {
+	margin: 0 5px;
+	margin-bottom: 10px;
+	width: 30px;
+}
 #footer {
 	font-family: 'Raleway', Arial;
+	color: rgb(230,230,230);
 }
 #footer .container {
-	background-color: #CCC;
-	margin-top: 30px;
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 15px;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	transition: 0.5s;
+	position: fixed;
+	bottom: -100px;
+	width: 100%;
+	padding: 20px;
+	background-color: #444;
+	background-color: rgba(0,0,0,0.7);
 }

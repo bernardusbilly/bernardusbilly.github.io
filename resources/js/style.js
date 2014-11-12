@@ -51,6 +51,12 @@ $(document).ready(function() {
 			$('#main').css("padding-top", "120px");
 			$('#menu-container').css("padding-top", "0");
 		}
+
+		if ($(window).scrollTop() + $(window).height() >= $(document).height() - 30) {
+			$('#footer .container').css("bottom", "0px");
+		} else {
+			$('#footer .container').css("bottom", "-100px");
+		}
 	});
 
 	$(window).resize(function() {
