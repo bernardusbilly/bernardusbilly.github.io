@@ -52,7 +52,7 @@ $(document).ready(function() {
 			$('#menu-container').css("padding-top", "0");
 		}
 
-		if ($(window).scrollTop() + $(window).height() >= $(document).height() - 30) {
+		if ($(window).scrollTop() + $(window).height() >= $(document).height() - 50) {
 			$('#footer .container').css("bottom", "0px");
 		} else {
 			$('#footer .container').css("bottom", "-100px");
