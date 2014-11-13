@@ -3,11 +3,16 @@ $(document).ready(function(){
 	console.log("Playimage.js Ready");
 
 	// need update to resize the img-compound whenever parent() is resized
+	$(window).resize(function() {
+		$('.img-compound').each(function() {
+			var image_lead = $(this).find("img:first");
+			$(this).css("height", image_lead.height());
+		});
+	});
 
 	$('.img-compound').each(function() {
 		var image_lead = $(this).find("img:first");
 
-		$(this).css("width", image_lead.width());
 		$(this).css("height", image_lead.height());
 
 		var counter = 0;
