@@ -7,7 +7,7 @@
 		overflow: hidden;
 	}
 	.intro-photo {
-		position: relative !important;
+		position: relative;
 		left: -75% !important;
 		width: 250% !important;
 	}
