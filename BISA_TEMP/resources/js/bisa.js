@@ -11,7 +11,7 @@ $(window).load(function() {
 	$(names).each(function() {
 		var tmp = $(this).attr('id');
 		var name = tmp.substr(0, tmp.indexOf('-'));
-		// var shift_right = $(this).attr('shift');
+		var shift_right = $(this).attr('shift');
 		$(this).hasClass('photo')
 
 		if($(this).hasClass('photo')) {
