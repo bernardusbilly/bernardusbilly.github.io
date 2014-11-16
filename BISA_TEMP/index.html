@@ -38,7 +38,7 @@
 
     <div id="load-page">
         <div>
-            <img id="bisa-logo" src='resources/img/bisa_logo.png'>
+            <img id="bisa-logo" src='resources/img/bisa_logo.png' style="width: 300px; height: 100px;">
         </div>
     </div>
 
@@ -74,6 +74,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li id="nav-officer">
+                        <a class="page-scroll" href="#officer">Officer</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -83,9 +86,116 @@
     <section id="intro" class="intro-section">
         <div class="container" style="width: 100%; padding: 0;">
             <div class="row" style="margin: 0;">
+                <img id="intro-photo" src="resources/img/bisa_intro.jpg">
+                <div class="arrow-down">
+                    <span class="glyphicon glyphicon-arrow-down"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div id="about-left" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="h1">BISA.</div>
+                    The Berkeley Indonesian Student Association (BISA) was established in 1991. Over the past two decades, it has gone through a series of changes with the purpose of creating stronger friendships between Indonesian students in the UC Berkeley campus. BISA strongly believes in the essentiality of this action because there is something uniquely diverse and fascinating about being able to speak your own language with a close group of people, in a setting so foreign and far away from home.
+                    
+                    <br><br>
+                    BISA is created by the students and for the students. Through continuously building a larger and closer community, we aim to support each other as the people we are now and the people we will soon become.
+                </div>
+                <div id="about-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="img-compound">
+                        <img src="resources/img/bisa_2014.jpg">
+                        <img src="resources/img/bisa-officer2014.jpg">
+                        <img src="resources/img/bisa-officer2013.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <div class="row">
+                <div id="events-left" class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                    <img src="resources/img/nusantara.jpg" style="width: 50%;">
+                </div>
+                <div id="events-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="h1">Events</div>
+                    Our upcoming event is <a href="#" target="_blank">Nusantara</a>. An event where we share our culture to the world. We will be having Music Festival by singer from Indonesia and also students in the Bay Area. We will also have traditional foods from Indonesia and many more.
+                </div>
+                <div id="events-mobile" class="hidden-lg hidden-md col-sm-12 col-xs-12">
+                    <img src="resources/img/nusantara.jpg" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="gallery-left" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="h1">Gallery.</div>
+                    We held events. We documented it. Here is the full <a href="http://bisa.berkeley.edu/gallery/" target="_blank">Gallery</a> of all the events that we held. Click the picture for additional preview photos.
+                </div>
+                <div id="gallery-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="img-compound">
+                        <img src="resources/img/bisa_intro.jpg">
+                        <img src="resources/img/gallery.jpg">
+                        <img src="resources/img/bisa-2012.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="contact-left" class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                    <img src="resources/img/contact.jpg" style="width: 100%;">
+                </div>
+                <div id="contact-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="h1">Contact.</div>
+                    Please don't hesitate to contact us with anything!<br><br>
+                    <table class="table">
+                        <tr>
+                            <td> Email:
+                            <td> <input style="width: 85%; padding: 0 8px;" type="text" placeholder="Email">
+                        </tr>
+                        <tr>
+                            <td> Message:
+                            <td> <textarea style="width: 85%; height: 100px; border: 1px solid #CCC; border-radius: 5px; padding: 5px 8px; resize: none;" placeholder="Message"></textarea>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="button" class="btn btn-primary">Submit</button>
+                        </tr>
+                    </table>
+                </div>
+                <div id="contact-mobile" class="hidden-lg hidden-md col-sm-12 col-xs-12">
+                    <img src="resources/img/contact.jpg" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Officer Section -->
+    <section id="officer" class="officer-section">
+        <div class="container" style="width: 100%; padding: 0;">
+            <div class="row" style="margin: 0;">
+                <div id="officer-header">
+                    The Officers
+                </div>
                 <div class="col-lg-12" style="padding: 0;">
                     <div id="photoset-frame">
-                        <span id="infoToHover" class="col-lg-2 col-lg-offset-9 col-md-2 col-md-offset-9 col-sm-3 col-sm-offset-8 col-xs-3 col-xs-offset-8">Hover on the officers!</span>
+                        <!-- <span id="infoToHover" class="col-lg-2 col-lg-offset-9 col-md-2 col-md-offset-9 col-sm-3 col-sm-offset-8 col-xs-3 col-xs-offset-8">Hover on the officers!</span> -->
                         <img id="background" src="resources/img/bisa.jpg" style="position: relative; width: 100%; opacity: 1;">
                         <img id="background-bw" src="resources/img/bisa-bw.jpg" style="position: absolute; width: 100%; opacity: 0; top: 0; left: 0;">
                         <img id="richard-photo" class="photo" shift="0" src="resources/img/richard.jpg">
@@ -161,80 +271,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div id="about-left" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="h1">BISA.</div>
-                    The Berkeley Indonesian Student Association (BISA) was established in 1991. Over the past two decades, it has gone through a series of changes with the purpose of creating stronger friendships between Indonesian students in the UC Berkeley campus. BISA strongly believes in the essentiality of this action because there is something uniquely diverse and fascinating about being able to speak your own language with a close group of people, in a setting so foreign and far away from home.
-                    
-                    <br><br>
-                    BISA is created by the students and for the students. Through continuously building a larger and closer community, we aim to support each other as the people we are now and the people we will soon become.
-                </div>
-                <div id="about-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="resources/img/bisa_2014.jpg" style="width: 100%;">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Events Section -->
-    <section id="events" class="events-section">
-        <div class="container">
-            <div class="row">
-                <div id="events-left" class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-                    <img src="resources/img/nusantara.jpg" style="width: 100%;">
-                    Picture is taken from: <a href="http://elfitraugustin.deviantart.com/art/nusantara-font-68725184" target="_blank">here</a>
-                </div>
-                <div id="events-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="h1">Events</div>
-                    Our upcoming event is <a href="#" target="_blank">Nusantara</a>. An event where we share our culture to the world. We will be having Music Festival by singer from Indonesia and also students in the Bay Area. We will also have traditional foods from Indonesia and many more.
-                </div>
-                <div id="events-mobile" class="hidden-lg hidden-md col-sm-12 col-xs-12">
-                    <img src="resources/img/nusantara.jpg" style="width: 100%;">
-                    Picture is taken from: <a href="http://elfitraugustin.deviantart.com/art/nusantara-font-68725184" target="_blank">here</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div id="gallery-left" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="h1">Memory.</div>
-                    <a href="http://bisa.berkeley.edu/gallery/" target="_blank">Gallery</a> of all the events that we held. 
-                </div>
-                <div id="gallery-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="resources/img/gallery.jpg" style="width: 100%;">
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div id="contact-left" class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-                    <img src="resources/img/contact.jpg" style="width: 100%;">
-                </div>
-                <div id="contact-right" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="h1">Call.</div>
-                    If you need any help regarding anything related to us, please don't hesitate to contact us!
-                </div>
-                <div id="contact-mobile" class="hidden-lg hidden-md col-sm-12 col-xs-12">
-                    <img src="resources/img/contact.jpg" style="width: 100%;">
                 </div>
             </div>
         </div>

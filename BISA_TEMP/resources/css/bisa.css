@@ -25,6 +25,20 @@ a:hover{
 	margin-left: auto;
 	margin-right: auto;
 }
+#intro-photo {
+	width: 100%;
+}
+.arrow-down {
+	position: fixed;
+	bottom: 0px;
+	background: rgba(0,0,0,0.2);
+	width: 100%;
+	padding-top: 10px;
+	font-size: 50px;
+	color: #FFF;
+	text-align: center;
+	transition: 0.2s;
+}
 #infoToHover{
 	position: absolute;
 	z-index: 1000;
@@ -33,6 +47,20 @@ a:hover{
 	background-color: #FDB515;
 	border-radius: 10px;
 	border: 3px solid rgb(0, 50 ,98);
+}
+#officer-header {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: -200px;
+	padding: 10px 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom: 2px solid #333;
+	border-left: 2px solid #333;
+	background: rgba(255, 255, 255, 0.9);
+	font-size: 20px;
+	color: #333;
+	transition: 1s;
 }
 #photoset-frame {
 	width: 100%;
@@ -116,7 +144,7 @@ a:hover{
 	transition: 0.5s;
 	position: absolute;
 	left: -200%;
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255,0.8);
 	font-size: 16px;
 	padding: 10px 20px;
 }
@@ -158,6 +186,9 @@ a:hover{
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus {
 	background-color: #FDB515;
+}
+.navbar-fixed-top {
+	transition: 0.5s;
 }
 .h1 {
 	font-size: 60px;

@@ -1,9 +1,18 @@
 /* bisa-responsive.css*/
 
 @media (max-width: 767px) {
-	#photoset-frame {
-		transition: 0.5s;
-		margin-top: 50px;
+	.intro-section {
+		padding-top: 50px;
+		min-height: 100%;
+		overflow: hidden;
+	}
+	#intro-photo {
+		position: relative;
+		left: -75%;
+		width: 250%;
+	}
+	.officer-section {
+		min-height: 120%;
 	}
 	#photoset-info {
 		width: 350px;
@@ -15,10 +24,10 @@
 		padding: 10px;
 		line-height: 14px;
 	}
-	.name {
+	#photoset-info > .name {
 		font-size: 20px;
 	}
-	.position {
+	#photoset-info > .position {
 		font-size: 10px;
 	}
 	.h1 {
@@ -43,8 +52,19 @@
 	#gallery-left,
 	#gallery-right,
 	#contact-left,
-	#contact-mobile {
+	#contact-mobile,
+	#contact-right {
 		padding-top: 50px;
+	}
+	#officer-header {
+		padding: 5px 10px;
+	}
+	.officer-section {
+		padding-top: 40%;
+		min-height: 100%;
+	}
+	.footer-section {
+		padding-top: 15px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -80,7 +100,8 @@
 	#gallery-right,
 	#contact-left,
 	#contact-right,
-	#contact-mobile {
+	#contact-mobile,
+	#contact-right {
 		padding-top: 20px;
 	}
 }
@@ -127,7 +148,7 @@
 		padding-top: 120px;
 	}
 	#contact-right{
-		padding-top: 120px;
+		padding-top: 40px;
 	}
 }
 @media (min-width: 1200px) {
@@ -147,8 +168,7 @@
 	#events-right {
 		padding-top: 50px;
 	}
-	#gallery-left,
-	#contact-right{
+	#gallery-left {
 		padding-top: 80px;
 	}
 }

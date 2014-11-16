@@ -1,9 +1,11 @@
 $(window).load(function() {
 	console.log("BISA.js ready");
 
+	// remove the loading screen when the page is ready
 	$('#load-page').css("opacity", "0");
 	$('#load-page').css("z-index", "-100");
 	
+	// hover effect for officer
 	var names = $('#photoset-frame > img');
 
 	$(names).each(function() {
@@ -34,4 +36,47 @@ $(window).load(function() {
 			});
 		}
 	});
+
+
+	// when officer page is active then we temporarily hide the navigation bar
+	// when we hit the bottom of the page, footer appear
+
+	if($('#nav-officer').hasClass("active")) {
+		$('.navbar-fixed-top').css("top", "-51px");
+		$('#officer-header').css("right", "0");
+	} else {
+		$('.navbar-fixed-top').css("top", "0");
+		$('#officer-header').css("right", "-200px");
+	}
+
+	if ($(window).scrollTop() + $(window).height() >= $(document).height() - 20) {
+		$('.footer-section').css("bottom", "0px");
+	} else {
+		$('.footer-section').css("bottom", "-100px");
+	}
+
+	$(window).scroll(function() {
+		if($('#nav-officer').hasClass("active")) {
+			$('.navbar-fixed-top').css("top", "-51px");
+			$('#officer-header').css("right", "0");
+		} else {
+			$('.navbar-fixed-top').css("top", "0");
+			$('#officer-header').css("right", "-200px");
+		}
+
+		if ($(window).scrollTop() + $(window).height() >= $(document).height() - 20) {
+			$('.footer-section').css("bottom", "0px");
+		} else {
+			$('.footer-section').css("bottom", "-100px");
+		}
+
+		if($(window).scrollTop() > 50) {
+			$('.arrow-down').css("bottom", "-100px");	
+		} else {
+			$('.arrow-down').css("bottom", "0");
+		};
+	});
+
+
+	
 });
