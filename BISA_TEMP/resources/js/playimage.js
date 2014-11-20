@@ -25,6 +25,13 @@ $(document).ready(function(){
 		});
 
 		// setup hover condition
+		$(this).hover(function() {
+			$(this).find(".photo-arrow").css("visibility", "hidden");
+		}, function() {
+			$(this).find(".photo-arrow").css("visibility", "visible");
+		});
+
+		// setup click function
 		$(this).click(function() {
 			images = $(this).find("img");
 			
@@ -40,7 +47,7 @@ $(document).ready(function(){
 			}
 		});
 
-		$(this).append("<span class='glyphicon glyphicon-chevron-right' style='position: absolute; font-size: 26px; right: 5%; top: 5%; color: rgb(255,255,255)'></span>")
+		$(this).append("<span class='glyphicon glyphicon-chevron-right photo-arrow' style='position: absolute; font-size: 60px; left: 45%; top: 45%; color: rgba(255,255,255,0.7);'></span>")
 	});
 
 	$('.img-layering').each(function() {

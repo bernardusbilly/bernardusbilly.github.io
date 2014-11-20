@@ -133,14 +133,14 @@ a:hover{
 	left: 83.4%;
 }
 @-webkit-keyframes updown{
-	0% {top: 24%;}
-	50% {top: 26%;}
-	100% {top: 24%;}
+	0% {top: 22%;}
+	50% {top: 24%;}
+	100% {top: 22%;}
 }
 @keyframes updown{
-	0% {top: 24%;}
-	50% {top: 26%;}
-	100% {top: 24%;}
+	0% {top: 22%;}
+	50% {top: 24%;}
+	100% {top: 22%;}
 }
 #info-to-hover {
 	position: absolute;
@@ -148,7 +148,7 @@ a:hover{
 	z-index: 2;
 	font-size: 26px;
 	left: 47%;
-	top: 24%;
+	top: 22%;
 	color: rgb(255,255,255);
 	-webkit-animation: updown 1s infinite;
 }

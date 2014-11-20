@@ -16,6 +16,7 @@ $(window).load(function() {
 
 		if($(this).hasClass('photo')) {
 			$(this).hover(function() {
+				$('#info-to-hover').css("visibility", "hidden");
 				$('#' + name + '-info').css("left", shift_right+"%");
 				$('#photoset-info').css("border-left", "3px solid black");
 				$('#background').css("opacity", 0);

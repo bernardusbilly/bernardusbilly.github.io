@@ -13,6 +13,9 @@
 		left: -75% !important;
 		width: 250% !important;
 	}
+	#info-to-hover {
+		left: 46%;
+	}
 	.officer-section {
 		min-height: 120%;
 	}
@@ -44,8 +47,8 @@
 	.events-section,
 	.gallery-section,
 	.contact-section {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 3%;
+		padding-bottom: 3%;
 	}
 	#about-left,
 	#about-right,
@@ -90,8 +93,8 @@
 	.events-section,
 	.gallery-section,
 	.contact-section {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 5%;
+		padding-bottom: 5%;
 	}
 	#about-left,
 	#about-right,
@@ -125,8 +128,8 @@
 	.events-section,
 	.gallery-section,
 	.contact-section {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 10%;
+		padding-bottom: 10%;
 	}
 	#about-right {
 		padding-top: 50px;
@@ -162,10 +165,6 @@
 	#photoset-info > .info {
 		font-size: 12px;
 		padding: 10px 20px;
-	}
-	.about-section {
-		padding-top: 200px;
-		padding-bottom: 200px;
 	}
 	#events-right {
 		padding-top: 50px;
