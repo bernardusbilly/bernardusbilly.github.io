@@ -32,6 +32,8 @@ $(document).ready(function(){
 			$(this).css("transition", "1s");
 		});
 
+		$(this).append("<span class='glyphicon glyphicon-chevron-right' style='position: absolute; font-size: 26px; right: 5%; top: 5%; color: rgb(255,255,255)'></span>")
+
 		// setup hover condition
 		$(this).click(function() {
 			images = $(this).find("img");

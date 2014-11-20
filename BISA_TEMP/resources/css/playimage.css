@@ -114,8 +114,8 @@
 
 .img-compound {
 	cursor: pointer;
-	overflow: hidden;
 	position: relative;
+	/*overflow: hidden*/
 }
 .img-compound > img {
 	vertical-align: top;
