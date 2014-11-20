@@ -12,7 +12,6 @@ $(window).load(function(){
 
 		// setup the location for all given <img>
 		$(this).find("img").each(function() {
-			$(this).css("border-radius", "50px");
 			$(this).attr("counter", total_image);
 			total_image += 1;
 		});
@@ -47,8 +46,6 @@ $(window).load(function(){
 				counter = 0;
 			}
 		});
-
-		$(this).append("<span class='glyphicon glyphicon-chevron-right photo-arrow' style='position: absolute; font-size: 60px; left: 45%; top: 45%; color: rgba(255,255,255,0.7);'></span>")
 	});
 
 	$('.img-layering').each(function() {

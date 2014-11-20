@@ -42,7 +42,7 @@ of those sections to manage the look and feel of the site. */
 .about-section {
     display: block;
     padding-top: 5%;
-    padding-bottom: 13%;
+    padding-bottom: 5%;
     text-align: center;
     background: #eee;
     color: #AAA;
@@ -60,7 +60,7 @@ of those sections to manage the look and feel of the site. */
 .gallery-section {
     display: block;
     padding-top: 5%;
-    padding-bottom: 17%;
+    padding-bottom: 5%;
     text-align: center;
     background: #eee;
     color: #AAA;

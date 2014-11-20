@@ -51,14 +51,11 @@
 	.events-section,
 	.gallery-section,
 	.contact-section {
-		padding-top: 3%;
-		padding-bottom: 3%;
+		padding-top: 5%;
+		padding-bottom: 5%;
 	}
-	#about-left,
 	#about-right,
 	#events-mobile,
-	#events-right,
-	#gallery-left,
 	#gallery-right,
 	#contact-left,
 	#contact-mobile,
@@ -167,6 +164,9 @@
 	}
 }
 @media (min-width: 1200px) {
+	#about-left {
+		padding-top: 20px;
+	}
 	#photoset-info {
 		width: 800px;
 		height: 95px;
