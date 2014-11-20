@@ -12,6 +12,7 @@ $(document).ready(function(){
 
 		// setup the location for all given <img>
 		$(this).find("img").each(function() {
+			$(this).css("border-radius", "50px");
 			$(this).attr("counter", total_image);
 			total_image += 1;
 		});

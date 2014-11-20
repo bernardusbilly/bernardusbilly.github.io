@@ -16,6 +16,10 @@
 	#info-to-hover {
 		left: 46%;
 	}
+	#officer-header {
+		left: 0%;
+		font-size: 14px;
+	}
 	.officer-section {
 		min-height: 120%;
 	}
@@ -73,6 +77,9 @@
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	#officer-header {
+		left: 33.5%;
+	}
 	#photoset-info {
 		width: 500px;
 		height: 58px;
@@ -111,6 +118,9 @@
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+	#officer-header {
+		left: 36%;
+	}
 	#photoset-info {
 		width: 700px;
 		height: 80px;
