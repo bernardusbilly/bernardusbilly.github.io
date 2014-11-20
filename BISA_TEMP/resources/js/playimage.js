@@ -1,5 +1,5 @@
 /* Playimage.js */
-$(document).ready(function(){
+$(window).load(function(){
 	console.log("Playimage.js Ready");
 
 	$('.img-compound').each(function() {
