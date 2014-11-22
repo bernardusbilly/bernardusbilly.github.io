@@ -78,10 +78,8 @@ $(window).load(function() {
 		};
 
 		if ($(window).scrollTop() + $(window).height() >= 0.85 * $(document).height()) {
-			$('body').css("background-image", "url(./resources/img/bisa_2012.jpg)");
-		} else if ($(window).scrollTop() + $(window).height() >= 0.6 * $(document).height()) {
 			$('body').css("background-image", "url(./resources/img/bisa_2013.jpg)");
-		} else {
+		} else { 
 			$('body').css("background-image", "url(./resources/img/bisa_2014.jpg)");
 		}
 
