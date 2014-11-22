@@ -48,6 +48,11 @@ of those sections to manage the look and feel of the site. */
     color: #AAA;
 }
 
+.blank-section {
+    min-height: 80%;
+    background: rgba(0,0,0,0);
+}
+
 .gallery-section {
     display: block;
     padding-top: 5%;
@@ -66,8 +71,8 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     display: block;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     text-align: center;
     background: #fff;
     min-height: 100%;
