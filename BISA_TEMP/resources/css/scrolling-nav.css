@@ -45,8 +45,8 @@ of those sections to manage the look and feel of the site. */
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    background: rgba(0,0,0,0.90);
-    color: #AAA;
+    background: rgba(255,255,255,0.8);
+    color: #888;
 }
 
 .blank-section {
