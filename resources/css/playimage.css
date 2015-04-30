@@ -71,6 +71,35 @@
 }
 
 
+/** 
+ * img-text-inverse
+ * must be put either inside img-overlay or img-cover
+ */
+.img-text-inverse {
+	transition-property: top, opacity;
+	transition-duration: 1s, 0.2s;
+	position: absolute;
+	z-index: 1000;
+	color: #FFF;
+	top: 45%;
+	opacity: 1;
+	width: 100%;
+	text-align: center;
+}
+.img-overlay:hover .img-text-inverse {
+	transition-property: top, opacity;
+	transition-duration: 1s;
+	top: 70%;
+	opacity: 0;
+}
+.img-cover:hover .img-text-inverse {
+	transition-property: top, opacity;
+	transition-duration: 1s;
+	top: 70%;
+	opacity: 0;
+}
+
+
 /**
  * color-effect 
  */
