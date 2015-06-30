@@ -70,7 +70,7 @@ a {
 }
 .entry {
 	margin-bottom: 20px;
-	font-size: 14pt;
+	font-size: 16px;
 }
 .entry .h2 {
 	color: rgb(100, 100, 255);
@@ -88,7 +88,7 @@ a {
 #resume-link {
 	display: inline-block;
 	border-radius: 5px;
-	font-size: 14pt;
+	font-size: 16px;
 	color: #FFF;
 	border: 3px solid rgb(100, 100, 255);
 	background-color: rgb(100, 100, 255);
