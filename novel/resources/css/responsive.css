@@ -1,0 +1,52 @@
+/* responsive.css created by Bernardus Billy Tjiptoning on September 2014 */
+
+@media (max-width: 767px) {
+	#name {
+		font-size: 16pt;
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+	#menu-container {
+		text-align: center;
+	}
+	.menu {
+		padding: 15px 2px;
+	}
+	#introduction {
+		font-size: 12pt;
+	}
+	#introduction .h2 {
+		font-size: 20pt;
+	}
+	.entry .h2 {
+		font-size: 20pt;
+	}
+	.entry .item-header {
+		font-size: 14pt;
+	}
+	.entry .item-info {
+		font-size: 8pt;
+	}
+	.hide-for-xs {
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#name {
+		font-size: 18pt;
+		padding: 35px 0;
+	}
+	.menu {
+		padding: 40px 10px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#name {
+		font-size: 30pt;
+	}
+}
+@media (min-width: 1200px) {
+	#name {
+		font-size: 30pt;
+	}
+}

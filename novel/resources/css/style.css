@@ -1,0 +1,54 @@
+/* style.css created by Bernardus Billy Tjiptoning on June 2015 */
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-justify {
+	text-align: justify;
+}
+
+.text-header {
+	font-size: 40px;
+	text-align: center;
+	color: #333;
+	border-bottom: 2px solid #CCC;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.text-subheader {
+	color: #BBB;
+	font-size: 14px;
+}
+.photo {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.chapter-header {
+	background-color: #EEE;
+	padding: 5px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.footer-content {
+	padding-top: 20px;
+	background-color: #EEE;
+	min-height: 100px;
+}
