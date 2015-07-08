@@ -7,23 +7,46 @@ body {
 a {
 	color: inherit;
 }
+a:hover {
+	text-decoration: none;
+}
 
 .text-bold {
 	font-weight: bold;
 }
-.text-left {
-	text-align: left;
-}
-.text-right {
-	text-align: right;
-}
-.text-center {
-	text-align: center;
-}
 .text-justify {
 	text-align: justify;
 }
-
+.text-light-gray {
+	color: #BBB;
+}
+.paddingTop5 {
+	padding-top: 5px;
+}
+.noPadding {
+	padding: 0;
+}
+.noRightPadding {
+	padding-right: 0;
+}
+.noLeftPadding {
+	padding-left: 0;
+}
+.tag {
+	cursor: pointer;
+	color: #777;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+.tag-active {
+	background-color: #EEE;
+}
+.tag-inactive {
+	background-color: #CCC;
+}
+.tag-inactive:hover {
+	background-color: #DDD;
+}
 .text-header {
 	font-size: 40px;
 	text-align: center;
@@ -31,6 +54,7 @@ a {
 	border-bottom: 2px solid #CCC;
 	padding-bottom: 30px;
 	padding-top: 30px;
+	margin-bottom: 20px;
 }
 .text-subheader {
 	color: #BBB;
@@ -41,14 +65,26 @@ a {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.chapter-header {
+.chapter-number {
+	display: none;
+}
+.chapter-header-wrapper {
+	cursor: pointer;
 	background-color: #EEE;
 	padding: 5px;
-	margin-top: 20px;
 	font-size: 20px;
+}
+.chapter-nextprev {
+	color: #DDD;
+}
+.chapter-nextprev:hover {
+	color: #AAA;
 }
 .footer-content {
 	padding-top: 20px;
 	background-color: #EEE;
-	min-height: 100px;
+	min-height: 130px;
+}
+.socmed-icon {
+	width: 30px;
 }
