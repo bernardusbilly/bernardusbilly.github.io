@@ -1,2 +1,2 @@
-# tjiptoning
-Tjiptoning Sejati 
+# Personal Website
+Bernardus Billy Tjiptoning
