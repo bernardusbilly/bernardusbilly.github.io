@@ -63,8 +63,8 @@ body.index {
 				    text-transform: uppercase;
 				    padding: 0px 15px;
 				    letter-spacing: 3px;
-				    background: linear-gradient(to right, $superlight-grey 30%, white 60%);
-					background-size: 300% 100%;
+				    background: linear-gradient(to right, $superlight-grey 50%, white 50%);
+					background-size: 200% 100%;
 		    		background-position:right bottom;
 		    		transition-duration: 1000ms;
 		    		border-left: 1px solid $dark-grey;
@@ -208,15 +208,15 @@ body.index {
 			padding: 80px 10vw;
 			border-bottom: 1px solid $superlight-grey;
 			text-align: center;
-			background: linear-gradient(to right, $superlight-grey 34%, white 65%);
-			background-size: 300% 100%;
+			background: linear-gradient(to right, $superlight-grey 50%, white 50%);
+			background-size: 200% 100%;
     		background-position:right bottom;
-    		transition-duration: 1000ms;
+    		transition-duration: 1500ms;
 
     		overflow: hidden;
 			&:hover {
-				transition-duration: 1000ms;
-				background-position:left bottom;
+				transition-duration: 1500ms;
+				background-position: left bottom;
 			}
 
 			.project-header {
