@@ -157,8 +157,8 @@ body.index #project {
     padding: 80px 10vw;
     border-bottom: 1px solid gainsboro;
     text-align: center;
-    background: linear-gradient(to right, gainsboro 50%, white 50%);
-    background-size: 200% 100%;
+    background: linear-gradient(to right, gainsboro 30%, white 60%);
+    background-size: 300% 100%;
     background-position: right bottom;
     transition-duration: 1500ms;
     overflow: hidden; }
