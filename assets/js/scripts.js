@@ -2,7 +2,8 @@ $(window).load(function() {
 	$('.loading-wrapper').hide();
 	$('.menu-container').addClass("animated fadeInRight");
   $('.logo').animate({
-      width: "250px"
+      width: "250px",
+			height: "250px"
   }, 800, "easeOutBounce");
 });
 

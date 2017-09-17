@@ -3,7 +3,7 @@ body.index {
 	#introduction {
 		position: relative;
 		display: block;
-		height: 100vh; 
+		height: 100vh;
 		text-align: center;
 		overflow: hidden;
 
@@ -29,11 +29,11 @@ body.index {
 
 		.logo {
 			position: relative;
-			display: inline-block; 
+			display: inline-block;
 			width: 50px;
-			top: 50%; 
-			transform: translate3d(0, -50%, 0); 
-			font-size: 20px; 
+			top: 50%;
+			transform: translate3d(0, -50%, 0);
+			font-size: 20px;
 			color: #333333;
 			border-radius: 50%;
 			overflow: hidden;
@@ -124,7 +124,7 @@ body.index {
 
 	#history {
 		position: relative;
-		height: 900px;
+		height: 1050px;
 		text-align: center;
 		overflow: hidden;
 
@@ -138,7 +138,7 @@ body.index {
 			left: calc(50% - 1px);
 			margin-top: 20px;
 			border-left: 2px solid $dark-grey;
-			height: 750px;
+			height: 880px;
 		}
 		.year-indicator {
 			position: absolute;
@@ -152,19 +152,22 @@ body.index {
 			margin-top: 50px;
 		}
 		.year-2011 {
-			margin-top: 180px;	
+			margin-top: 180px;
 		}
 		.year-2013 {
-			margin-top: 310px;	
+			margin-top: 310px;
 		}
 		.year-2014 {
-			margin-top: 440px;	
+			margin-top: 440px;
 		}
 		.year-2015 {
-			margin-top: 570px;	
+			margin-top: 570px;
 		}
 		.year-2016 {
-			margin-top: 700px;	
+			margin-top: 700px;
+		}
+		.year-2017 {
+			margin-top: 830px;
 		}
 		.wrapper-left, .wrapper-right {
 			visibility: hidden;
@@ -202,7 +205,7 @@ body.index {
 			opacity: 0.1;
 			font-size: 80px;
 		}
-		
+
 		.wrapper-project:nth-child(2) {
 			border-top: 1px solid $superlight-grey;
 		}

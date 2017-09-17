@@ -1,6 +1,7 @@
-# node modules
+# files
 node_modules/
+.idea/
 
 # Mac config
 .DS_Store
-.sass-cache
+.sass-cache/
