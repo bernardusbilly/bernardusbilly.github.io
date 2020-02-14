@@ -94,7 +94,7 @@ body.index #service {
       transition-duration: 500ms; }
 body.index #history {
   position: relative;
-  height: 1050px;
+  height: 1200px;
   text-align: center;
   overflow: hidden; }
   body.index #history .header {
@@ -106,7 +106,7 @@ body.index #history {
     left: calc(50% - 1px);
     margin-top: 20px;
     border-left: 2px solid #323232;
-    height: 880px; }
+    height: 1100px; }
   body.index #history .year-indicator {
     position: absolute;
     z-index: -1;
@@ -127,6 +127,8 @@ body.index #history {
     margin-top: 700px; }
   body.index #history .year-2017 {
     margin-top: 830px; }
+  body.index #history .year-2019 {
+    margin-top: 950px; }
   body.index #history .wrapper-left, body.index #history .wrapper-right {
     visibility: hidden; }
     body.index #history .wrapper-left .header, body.index #history .wrapper-right .header {
