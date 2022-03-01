@@ -1,2 +1,5 @@
-# Personal Website
-Bernardus Billy Tjiptoning
+## Personal Website
+Billy Tjiptoning
+
+## Note
+This page is created using CRA
