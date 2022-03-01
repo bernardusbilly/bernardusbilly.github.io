@@ -147,30 +147,6 @@
     visibility: hidden;
   }
 }
-#history .year-1993 {
-  margin-top: 50px;
-}
-#history .year-2011 {
-  margin-top: 180px;
-}
-#history .year-2013 {
-  margin-top: 310px;
-}
-#history .year-2014 {
-  margin-top: 440px;
-}
-#history .year-2015 {
-  margin-top: 570px;
-}
-#history .year-2016 {
-  margin-top: 700px;
-}
-#history .year-2017 {
-  margin-top: 830px;
-}
-#history .year-2019 {
-  margin-top: 950px;
-}
 #history .wrapper-left .header,
 #history .wrapper-right .header {
   position: relative;
@@ -183,15 +159,13 @@
   margin-bottom: 10px;
 }
 #history .wrapper-right {
-  position: absolute;
+  position: relative;
   left: calc(50% + 20px);
-  width: 30%;
   text-align: left;
 }
 #history .wrapper-left {
-  position: absolute;
+  position: relative;
   right: calc(50% + 20px);
-  width: 30%;
   text-align: right;
 }
 #project {

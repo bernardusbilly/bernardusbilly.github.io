@@ -1,5 +1,6 @@
 import './style.scss';
 import 'animate.css';
+import histories from './history.json';
 
 function App() {
   return (
@@ -48,123 +49,23 @@ function App() {
       <div id="history">
         <div className="header">History</div>
         <div className="timeline"></div>
-        <img
-          className="year-indicator year-1993"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-left year-1993">
-          <div className="header">1993</div>
-          Born - and here's my sibling's
-          <a
-            href="https://www.linkedin.com/in/andrew-tjiptoning-2a3724169/"
-            target="_blank"
-          >
-            profile
-          </a>
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Jakarta, Indonesia
-          </div>
-        </div>
-        <img
-          className="year-indicator year-2011"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-right year-2011">
-          <div className="header">2011</div>
-          Graduated from SMA Kolese Kanisius
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Jakarta
-          </div>
-          Started college at De Anza College
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Cupertino
-          </div>
-        </div>
-        <img
-          className="year-indicator year-2013"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-left year-2013">
-          <div className="header">2013</div>
-          Transferred to University of California, Berkeley
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Berkeley
-          </div>
-        </div>
-        <img
-          className="year-indicator year-2014"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-right year-2014">
-          <div className="header">2014</div>
-          Summer internship at
-          <a href="https://www.blibli.com/" target="_blank" rel="noreferrer noopener">Blibli</a>
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Jakarta
-          </div>
-        </div>
-        <img
-          className="year-indicator year-2015"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-left year-2015">
-          <div className="header">2015</div>
-          Summer internship at
-          <a href="https://www.wetravel.com/" target="_blank" rel="noreferrer noopener">WeTravel</a>
-          <div className="location">
-            <span className="fa fa-map-marker"></span> San Francisco
-          </div>
-          <div className="mb-10">Graduated from UC Berkeley</div>
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Berkeley
-          </div>
-          Internship at Helpio Inc.
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Berkeley
-          </div>
-        </div>
-        <img
-          className="year-indicator year-2016"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-right year-2016">
-          <div className="header">2016</div>
-          Joined <a href="https://www.vyrill.com" target="_blank" rel="noreferrer noopener">Vyrill</a>
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Berkeley
-          </div>
-        </div>
-        <img
-          className="year-indicator year-2017"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-left year-2017">
-          <div className="header">2017</div>
-          Joined <a href="https://www.logichub.com" target="_blank" rel="noreferrer noopener">LogicHub</a>
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Mountain View
-          </div>
-        </div>
-        <img
-          className="year-indicator year-2019"
-          src="assets/img/bullet.png"
-          alt="bullet"
-        />
-        <div className="wrapper-right year-2019">
-          <div className="header">2019</div>
-          Working remotely from Indonesia for
-          <a href="https://www.logichub.com" target="_blank" rel="noreferrer noopener">LogicHub</a>
-          <div className="location">
-            <span className="fa fa-map-marker"></span> Jakarta
-          </div>
-        </div>
+        {histories.map(({ year = '', events = [] }, index) => {
+          return (
+            <div className={`wrapper-${index%2 === 0 ? 'left' : 'right'}`}>
+              <div className="header">{year}</div>
+              {events.map(({ title = '', location = '' }) => {
+                return (
+                  <>
+                    <div>{title}</div>
+                    {location && <div className="location">
+                      <span className="fa fa-map-marker"></span>{location}
+                    </div>}
+                  </>
+                )
+              })}
+            </div>
+          );
+        })}
       </div>
       <div id="project">
         <div className="header">Projects</div>

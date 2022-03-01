@@ -1,9 +1,117 @@
-{
-  "history": [
-    {
-      "year": 1993,
-      "title": "Born",
-      "location": "Jakarta, Indonesia"
-    }
-  ]
-}
+[
+  {
+    "year": 1993,
+    "events": [
+      {
+        "title": "Born",
+        "location": "Jakarta, Indonesia"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "events": [
+      {
+        "title": "Graduated from SMA Kanisius",
+        "location": "Jakarta, Indonesia"
+      },
+      {
+        "title": "Started college at De Anza",
+        "location": "Cupertino, CA"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "events": [
+      {
+        "title": "Transferred to UC Berkeley",
+        "location": "Berkeley, CA"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "events": [
+      {
+        "title": "Summer internship at Blibli",
+        "location": "Jakarta, Indonesia"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "events": [
+      {
+        "title": "Summer internship at WeTravel",
+        "location": "San Francisco, CA"
+      },
+      {
+        "title": "Graduated from Berkeley",
+        "location": "Berkeley, CA"
+      },
+      {
+        "title": "Internship at Helpio, Inc",
+        "location": "Berkeley, CA"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "events": [
+      {
+        "title": "Joined Vyrill",
+        "location": "San Francisco, CA"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "events": [
+      {
+        "title": "Joined LogicHub",
+        "location": "Mountain View, CA"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "events": [
+      {
+        "title": "Working remotely from Indonesia for LogicHub",
+        "location": "Jakarta, Indonesia"
+      },
+      {
+        "title": "Cofound Pandatech",
+        "location": "Jakarta, Indonesia"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "events": [
+      {
+        "title": "Pandemic Hits",
+        "location": "Jakarta, Indonesia"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "events": [
+      {
+        "title": "Joined Kargo Technologies",
+        "location": "Jakarta, Indonesia"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "events": [
+      {
+        "title": "Cofound Koda as Pandatech's parent company",
+        "location": "Jakarta, Indonesia"
+      }
+    ]
+  }
+]
