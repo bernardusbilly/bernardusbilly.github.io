@@ -3,7 +3,7 @@
     "year": 1993,
     "events": [
       {
-        "title": "Born",
+        "title": "I was born, I guess.",
         "location": "Jakarta, Indonesia"
       }
     ]
@@ -16,7 +16,7 @@
         "location": "Jakarta, Indonesia"
       },
       {
-        "title": "Started college at De Anza",
+        "title": "Studied at De Anza",
         "location": "Cupertino, CA"
       }
     ]
@@ -25,7 +25,7 @@
     "year": 2013,
     "events": [
       {
-        "title": "Transferred to UC Berkeley",
+        "title": "Studied at UC Berkeley",
         "location": "Berkeley, CA"
       }
     ]
@@ -62,6 +62,10 @@
       {
         "title": "Joined Vyrill",
         "location": "San Francisco, CA"
+      },
+      {
+        "title": "Got my first GF",
+        "location": "Anaheim, CA"
       }
     ]
   },
@@ -78,7 +82,7 @@
     "year": 2019,
     "events": [
       {
-        "title": "Working remotely from Indonesia for LogicHub",
+        "title": "Went back For Good",
         "location": "Jakarta, Indonesia"
       },
       {
@@ -91,8 +95,8 @@
     "year": 2020,
     "events": [
       {
-        "title": "Pandemic Hits",
-        "location": "Jakarta, Indonesia"
+        "title": "Pandemic Hits the World",
+        "location": "Earth"
       }
     ]
   },

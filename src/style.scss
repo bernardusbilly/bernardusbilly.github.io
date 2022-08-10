@@ -1,6 +1,8 @@
 #introduction {
-  display: block;
+  align-items: center;
+  display: flex;
   height: 100vh;
+  justify-content: center;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -33,9 +35,7 @@
     font-size: 20px;
     overflow: hidden;
     position: relative;
-    top: 50%;
-    transform: translate3d(0, -50%, 0);
-    width: 300px;
+    width: 200px;
 
     img {
       border-radius: 50%;
@@ -123,51 +123,57 @@
 
 #history {
   position: relative;
-  height: 1200px;
   text-align: center;
   overflow: hidden;
 
-  .header {
-    opacity: 0.1;
-    font-size: 80px;
+  .wrapper {
+    &-left {
+      position: relative;
+      right: calc(50% + 20px);
+      text-align: right;
+
+      .pointer {
+        color: gray;
+        position: absolute;
+        right: -28px;
+        top: 12px;
+      }
+    }
+    &-right {
+      position: relative;
+      left: calc(50% + 20px);
+      text-align: left;
+
+      .pointer {
+        color: gray;
+        position: absolute;
+        left: -28px;
+        top: 12px;
+      }
+    }
   }
+  .wrapper-left,
+  .wrapper-right {
+    .header {
+      font-size: 30px;
+      opacity: 0.1;
+      position: relative;
+    }
+    .location {
+      color: lightgrey;
+      margin-bottom: 10px;
+    }
+  }
+
   .timeline {
-    position: absolute;
-    z-index: -1;
+    border-left: 2px solid #323232;
+    height: 1200px;
     left: calc(50% - 1px);
     margin-top: 20px;
-    border-left: 2px solid #323232;
-    height: 1100px;
-  }
-  .year-indicator {
     position: absolute;
-    z-index: -1;
-    left: calc(50% - 7px);
-    width: 14px;
-    visibility: hidden;
   }
 }
-#history .wrapper-left .header,
-#history .wrapper-right .header {
-  position: relative;
-  top: -12px;
-  font-size: 30px;
-}
-#history .wrapper-left .location,
-#history .wrapper-right .location {
-  color: lightgrey;
-  margin-bottom: 10px;
-}
-#history .wrapper-right {
-  position: relative;
-  left: calc(50% + 20px);
-  text-align: left;
-}
-#history .wrapper-left {
-  position: relative;
-  right: calc(50% + 20px);
-  text-align: right;
-}
+
 #project {
   margin-top: 20vh;
 
@@ -198,6 +204,11 @@
     &:hover {
       transition-duration: 1500ms;
       background-position: left bottom;
+      .project-preview {
+        transition-delay: 0.5s;
+        transition-duration: 1s;
+        opacity: 1;
+      }
     }
 
     .project-header {
@@ -230,10 +241,10 @@
 
   .left-container,
   .right-container {
+    color: #969696;
     display: inline-block;
     vertical-align: top;
     width: 40vw;
-    color: #969696;
 
     .header {
       color: #323232;
@@ -247,61 +258,34 @@
   }
 }
 
-html {
-  font-family: "Abel", sans-serif;
-}
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
 body {
-  padding: 0;
+  font-family: "Abel", sans-serif;
   margin: 0;
-}
-body .loading-wrapper {
-  position: fixed;
-  z-index: 1000;
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  text-align: center;
-}
-body .loading-wrapper .loading-gif {
-  position: absolute;
-  top: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  width: 100px;
-  height: 100px;
+  padding: 0;
+
+  .loading-wrapper {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+
+    .loading-gif {
+      height: 100px;
+      width: 100px;
+    }
+  }
 }
 
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-.animation-delay-100 {
-  animation-delay: 100ms;
-}
-
-.animation-delay-200 {
-  animation-delay: 200ms;
-}
-
-.animation-delay-300 {
-  animation-delay: 300ms;
-}
-
-.animation-delay-400 {
-  animation-delay: 400ms;
-}
-
-.animation-delay-500 {
-  animation-delay: 500ms;
-}
-
-.animation-delay-600 {
-  animation-delay: 600ms;
 }
