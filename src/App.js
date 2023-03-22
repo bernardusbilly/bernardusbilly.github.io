@@ -25,7 +25,7 @@ function Content() {
         <div className="header-wrapper">
           <span className="header">Bernardus Billy Tjiptoning</span>
           <span className="sub-header">
-            {`Engineering Manager @ `}
+            {`Deputy Head of Engineering @ `}
             <a href="https://www.kargo.tech" target="_blank" rel="noreferrer noopener">Kargo Technologies</a>
           </span>
         </div>
@@ -34,7 +34,7 @@ function Content() {
         </div>
         <div className="menu-container animate__animated animate__fadeInRight">
           <ul>
-            <li><a href="#service">Skills</a></li>
+            <li><a href="#service">Introduction</a></li>
             <li><a href="#history">History</a></li>
             <li><a href="#project">Projects</a></li>
             <li><a href="#footer">Contact</a></li>
@@ -43,9 +43,10 @@ function Content() {
       </div>
       <div id="service">
         <div className="left-container">
-          <div className="header">Skills</div>
-          Started my passion in Front End Development. Worked in multiple Startups and started my own in the Software House space.
-          Currently working professionally as an Engineering Manager in a Logistic Startup.
+          <div className="header">Introduction</div>
+          Almost majoring in Actual Science; changed my path during my time in Berkeley into Computer Science major. Started my passion in
+          Front End Development. Worked in multiple Startups in Silicon Valley and started my own company in the Software House space with
+          several friends from the Bay Area. Currently working professionally as Deputy Head of Engineering in a Logistic Startup, Kargo Technologies.
         </div>
         <div className="right-container">
           <ul className="services">
@@ -54,6 +55,9 @@ function Content() {
             </Animated>
             <Animated animation='animate__slideInRight'>
               <li>Engineering Management</li>  
+            </Animated>
+            <Animated animation='animate__slideInRight'>
+              <li>Kicking off a Startup</li>
             </Animated>
             <Animated animation='animate__slideInRight'>
               <li>People Operations</li>  
@@ -168,7 +172,7 @@ function Content() {
           bernardus.billy@hotmail.com<br />
         </div>
         <div className="copyright">
-          Made with ❤️ in 2022
+          Made with ❤️ in 2023
         </div>
       </div>
     </div>

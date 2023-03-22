@@ -9,10 +9,19 @@
     ]
   },
   {
+    "year": 1998,
+    "events": [
+      {
+        "title": "My family and I had to seek for refuge in Singapore",
+        "location": "Singapore"
+      }
+    ]
+  },
+  {
     "year": 2011,
     "events": [
       {
-        "title": "Graduated from SMA Kanisius",
+        "title": "Graduated Highschool from SMA Kanisius",
         "location": "Jakarta, Indonesia"
       },
       {
@@ -47,7 +56,7 @@
         "location": "San Francisco, CA"
       },
       {
-        "title": "Graduated from Berkeley",
+        "title": "Got my Bachelor's Degree in Computer Science from UC Berkeley",
         "location": "Berkeley, CA"
       },
       {
@@ -106,6 +115,10 @@
       {
         "title": "Joined Kargo Technologies",
         "location": "Jakarta, Indonesia"
+      },
+      {
+        "title": "Tried streaming on Twitch @billytheboba",
+        "location": "Jakarta, Indonesia"
       }
     ]
   },
@@ -113,7 +126,11 @@
     "year": 2022,
     "events": [
       {
-        "title": "Cofound Koda as Pandatech's parent company",
+        "title": "Cofound Koda as Pandatech's Holding company",
+        "location": "Jakarta, Indonesia"
+      },
+      {
+        "title": "Bought my first dream car!",
         "location": "Jakarta, Indonesia"
       }
     ]
